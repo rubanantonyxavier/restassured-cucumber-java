@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <Reissue userId="LUCC000006" runType="SUBMIT" masterID="MIaec9ce98893e403392d98d25fecb6524" channelID="CoreBatch"/>
+        <LoanAttributes estimatedValue="225000" firstTimeHomeBuyer="false" loanAmount="174250" loanNumber="HP005" loanPurpose="Purchase" userCltv="0.0" userDocTypeDesc="FullDoc" userDti="0.0" userLtv="85.0" userPropertyType="ManufacturedHousing" channelCode="HomeEquity"/>
+        <SubjectProperty>
+            <Address carrierRoute="" city="Polk City" streetAddr="4214 WOODSRIDGE DR" county="POLK" fips="12105" houseNum="4214" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="FL" streetName="Woodsridge" suffix="Dr" unitNum="" unitType="" zip="33868" zip4="9034" latitude="28171089" longitude="-81872343" censusBlock="12-105-012309-1-00-5" cityStateZip="Polk City FL 33868" address="4214 Woodsridge Dr" inputStreetAddr="4214 WOODSRIDGE DR" inputCity="" inputState="" inputZip="33868"/>
+            <Location censusTract="12-105-012309-1-00-5" county="POLK" latitude="28171089" longitude="-81872343"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="" firstName="Crystal" lastName="Mai" ssnEncryptedOneWay="">
+            <CurrentAddress carrierRoute="C019" city="HOUSTON" streetAddr="2726 STETSON LN" county="HARRIS" fips="48201" houseNum="2726" msaCode="26420" msaName="Houston-Baytown-Sugar Land, TX" cbsaCode="26420" cbsaName="Houston-Baytown-Sugar Land, TX" postDir="" preDir="" state="TX" streetName="STETSON" suffix="LN" unitNum="" unitType="" zip="77043" zip4="1806" latitude="29821491" longitude="-95548403" censusBlock="482015219005000" cityStateZip="HOUSTON TX 77043" address="2726 STETSON LN"/>
+            <OtherOwnedAddresses>
+                <InputAddress city="2726 Stetson Ln" state="Houston" zip="TX"/>
+            </OtherOwnedAddresses>
+            <CurrentLocation censusTract="482015219005000" county="HARRIS" latitude="29821491" longitude="-95548403"/>
+            <Employment yearsOnTheJob="14.0" employmentType="W2">
+                <Employer employerName="ABM Industries" phone="7137764506" years="14">
+                    <Address carrierRoute="C037" city="SUGAR LAND" streetAddr="14141 SOUTHWEST FWY" county="FORT BEND" fips="48157" houseNum="14141" msaCode="26420" msaName="Houston-Baytown-Sugar Land, TX" cbsaCode="26420" cbsaName="Houston-Baytown-Sugar Land, TX" postDir="" preDir="" state="TX" streetName="SOUTHWEST" suffix="FWY" unitNum="" unitType="" zip="77478" zip4="3493" latitude="29614343" longitude="-95606429" censusBlock="481576717002022" cityStateZip="SUGAR LAND TX 77478" address="14141 SOUTHWEST FWY"/>
+                    <Firmographics yearsInBusiness="14"/>
+                    <Location censusTract="481576717002022" county="FORT BEND" latitude="29614343" longitude="-95606429"/>
+                </Employer>
+                <Income bonus="5583.0" period="MONTHLY"/>
+                <Occupation jobTitle="AP Supervisor" yearsExperience="14"/>
+            </Employment>
+        </Borrower>
+        <Lender customerName="CL HOUSE ACCOUNT" customerNumber="9303884"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="RESCORE" inputValue="N"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="Fraud_AllAlerts"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="N"/>
+    </ProfileInputs>
+</Request>

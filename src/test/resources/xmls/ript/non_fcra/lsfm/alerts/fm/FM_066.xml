@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <LoanAttributes estimatedValue="737000" firstTimeHomeBuyer="false" loanAmount="604450"
+                        loanNumber="LSFM-TC-QA-FM066" userCltv="84.538" userDti="0.74" userLtv="84.538"
+                        loanPurpose="Purchase" userDocTypeDesc="FullDoc" userOccupancyTypeDesc="INVESTMENT"
+                        userPropertyType="SingleFamilyResidential" channelCode="Correspondent" userLienCode="First"
+                        userLoanProdDesc="Platinum Bank Statement" mortgageTerm="" mortgageRate=""
+                        clientDiscretionaryField="" userSaleAmount="0" userCloseDate="2019-09-16-07:00"
+                        userAppDate="2019-09-09-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="16802 GEORGE GANG BLVD" city="WESTFIELD" state="IN" zip="46062" fips="18057" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="fb4423eba262d1236e163f97bb8e9dc6"
+                  ssnEncryptedTwoWay="MTU3ODMyMzU3MDY3Nw==1pAdauFSlejFJv9yUt3kTw==" firstName="daniel" middleName="J."
+                  lastName="GREENOSHI" suffix="" creditScore="0" phone="" dob="1993-09-26-07:00">
+            <CurrentAddress streetAddr="15747 oak rd" city="Carmel" state="IN" zip="46062"/>
+            <Employment employmentType="SELF" yearsOnTheJob="7.0">
+                <Employer employerName="ShowCase Homes" phone="">
+                    <Address streetAddr="12965 Old Meridian St" zip="46032" city="Carmel" state="IN"/>
+                </Employer>
+                <Occupation jobTitle="President" soc="" yearsExperience="35.0"/>
+                <Income period="MONTHLY" base="1495109.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                        total="0.0"/>
+            </Employment>
+        </Borrower>
+        <Lender customerNumber="9000008074"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <ReportOptions searchDate="2020-03-13-07:00"/>
+        <Reissue masterID="MI22ac418464f911ea8a0e005056b13226" sourceLoanNumber="" sourceMasterID=""
+                 sourceCustomerNumber="" sourceUserId="" userId="C1971954" cacheLifeSpan="0.0" runType="SUBMIT"
+                 originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="132398" firstTimeHomeBuyer="false" loanAmount="135675"
+                        loanNumber="LSFM-NMLS-004" userCltv="102.0" userDti="0.0" userLtv="102.0"
+                        loanPurpose="NonCashOutRefinance" userDocTypeDesc="LimitedDoc"
+                        userOccupancyTypeDesc="PrimaryResidence" userPropertyType="PUD" channelCode="Retail"
+                        userLienCode="FirstLien" userLoanProdDesc="VA IRRRL 30 Yr Fixed" mortgageTerm="" mortgageRate=""
+                        clientDiscretionaryField="" userSaleAmount="0" userCloseDate="2020-03-13-07:00"
+                        userAppDate="2020-03-02-08:00" userLoanProdDescStd="VA"/>
+        <SubjectProperty>
+            <Address streetAddr="4675 BUFFALO LN" city="MARTINSVILLE" state="IN" zip="46151" fips="18109" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay="" firstName="Billy" middleName="R"
+                  lastName="Allen" suffix="" creditScore="654" phone="7659135677" dob="1942-01-06-08:00">
+            <CurrentAddress streetAddr="4675 Buffalo Ln" city="Martinsville" state="IN" zip="46151"/>
+            <Employment employmentType="W2" yearsOnTheJob="0.0">
+                <Employer employerName="RETIRED" phone=""/>
+                <Occupation jobTitle="None" soc="" yearsExperience="0.0"/>
+                <Income period="MONTHLY" base="0.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                        total="0.0"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <OtherLoanActor firstName="Sean" middleName="" lastName="Magee" suffix="" role="Loan Officer"/>
+        <OtherLoanActor firstName="Brittany" middleName="" lastName="Pyle" suffix="" role="Loan Processor"/>
+        <Originator nmlsID="" role="Lender" code="" phone="734-222-5200">
+            <name firstName="Sean" middleName="Patrick" lastName="Magee" suffix=""/>
+            <address streetAddr="" city="" state="" zip=""/>
+            <company companyName="First Savings Bank" companyNmlsId="411341" companyPhone="">
+                <Address streetAddr="2700 S River Road" city="Des Plaines" state="IL" zip="60018"/>
+            </company>
+        </Originator>
+        <Lender customerNumber="E011172667"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="Fraud_AllAlerts"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_NMLS" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_NMLS_FILTER_BY_STATES" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="false"/>
+    </ProfileInputs>
+</Request>

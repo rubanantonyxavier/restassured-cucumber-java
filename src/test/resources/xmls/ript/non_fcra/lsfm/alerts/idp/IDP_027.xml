@@ -1,0 +1,46 @@
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <ReportOptions searchDate="2019-04-01-07:00"/>
+        <Reissue masterID="" originalRunDate="" originalRiptID="" runType="" cacheLifeSpan="0.0" userId=""
+                 sourceUserId="" sourceCustomerNumber="" sourceMasterID="" sourceLoanNumber=""/>
+        <FraudOptions>
+            <UserDefs user10="" user9="" user8="" user7="" user6="" user5="" user4="" user3="" user2="" user1=""/>
+        </FraudOptions>
+        <LoanAttributes loanPurpose="Refinance" loanNumber="IDP027-ALERT" loanAmount="497000" estimatedValue="650000"
+                        userAppDate="2019-04-01-07:00" userCloseDate="2019-04-01-07:00" userSaleAmount="0"
+                        clientDiscretionaryField="" mortgageRate="" mortgageTerm="" userLoanProdDesc="" userLienCode="1"
+                        channelCode="Retail" userPropertyType="Other" userOccupancyTypeDesc="PrimaryResidence"
+                        userDocTypeDesc="Full" userLtv="76.0" userDti="0.0" userCltv="0.0" firstTimeHomeBuyer="false"/>
+        <SubjectProperty>
+            <Address apn="" streetAddr="4338 Norwalk Circle" zip="95655" state="CA" fips="0" city="Mather"/>
+        </SubjectProperty>
+        <Borrower suffix="" lastName="GOLDUR" firstName="HOLLY" dob="1975-08-31-07:00" phone="" middleName=""
+                  ssnEncryptedTwoWay="MTY0Njg2MDQ5MjIxNw==zLNGvLTci2WF01lLgkp0VA=="
+                  ssnEncryptedOneWay="0b70f5c3344601ae300e7dd638e48bc3" brwrNum="0">
+            <CurrentAddress streetAddr="4338 Norwalk Circle" city="Mather" state="CA" zip="95655"/>
+            <Employment yearsOnTheJob="0.0" employmentType="W2">
+                <Address streetAddr="" zip="92610" state="CA" city="FOOTHILL RANCH"/>
+                <Occupation yearsExperience="" soc="" jobTitle="LICENSED LENDING OFF"/>
+                <Income total="0.0" other="0.0" commission="0.0" bonus="0.0" overtime="0.0" base="2080.0"
+                        period="MONTHLY"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" taxId="" brokerId="">
+            <Address streetAddr="" zip="" state="" city=""/>
+        </Broker>
+        <Lender customerNumber="0306A"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+</Request>

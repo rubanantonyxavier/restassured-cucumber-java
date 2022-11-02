@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSRMRequest>
+        <LSFMRequestInfo>
+            <LoanAttributes estimatedValue="300000" firstTimeHomeBuyer="false" loanAmount="2600077777" loanNumber="sara-highRisk" loanPurpose="NonCashOutRefinance" refiPurpose="ChangeInRateTerm" userCltv="86.667" userDocTypeDesc="FULL" userDti="24.269" userLtv="86.667" userOccupancyTypeDesc="PrimaryResidence" userPropertyType="Condominium" channelCode="Correspondent" userLoanProdDesc="Fannie Mae HomeReady 30 Yr Fixed" mortgageRate="3.875" userAppDate="2019-12-12"/>
+            <SubjectProperty>
+                <Address streetAddr="15534 JOHN DISKIN CIR" state="VA" zip="22191" address="15534 JOHN DISKIN CIR"/>
+            </SubjectProperty>
+            <Borrower brwrNum="0" dob="1994-12-28" ssnEncryptedTwoWay="" firstName="Peter" middleName="M" lastName="Weeks">
+            </Borrower>
+            <NMLSSearchRequest nmlsIds=""/>
+            <Broker>
+                <Address carrierRoute="" city="" county="" houseNum="" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="" streetName="" suffix="" unitNum="" unitType="" zip4="0" censusBlock="" cityStateZip="" address=""/>
+            </Broker>
+            <OtherLoanActor role="Title Agent" companyName="SCS Title and Escrow, LLC" firstName="Jose" lastName="Marinay"/>
+
+            <Lender customerName="Def1" customerNumber="0002A"/>
+        </LSFMRequestInfo>
+    </LSRMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_AP_LIC_SEARCH_ON" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH_BY_MAIL" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_SERVICER_ID_CHECK" inputValue="N"/>
+        <InputParameter inputName="ALERT_SHOW_INACTIVE" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputValue="4.1" inputName="FM_MODEL"/>
+        <InputParameter inputName="BYPASS_AVMSELECT_CACHE" inputValue="N"/>
+        <InputParameter inputName="BYPASS_RIPT_CACHE" inputValue="N"/>
+        <InputParameter inputName="CACHE_EXPIRATION_OVERRIDE" inputValue="0"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="Y"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <Reissue masterID="" sourceLoanNumber="" sourceMasterID="" sourceCustomerNumber="" sourceUserId="" userId=""
+                 cacheLifeSpan="0.0" runType="" originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes userFundDate="2009-01-01" estimatedValue="0" firstTimeHomeBuyer="false" loanAmount=""
+                        loanNumber="IDP087-ALERT" userCltv="0.0" userDti="0.0" userLtv="0.0" loanPurpose=""
+                        userDocTypeDesc="" userOccupancyTypeDesc="" userPropertyType="" channelCode="" userLienCode=""
+                        userLoanProdDesc="" mortgageTerm="" mortgageRate="" clientDiscretionaryField=""
+                        userSaleAmount="0" userCloseDate="2020-05-05-07:00" userAppDate="2020-05-05-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="8241 PINE RUN" city="DAPHNE" state="AL " zip="36527" fips="0" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay=""
+                  firstName="MORTGAGE " middleName="" lastName="ELECTRONIC RGSTRTN" suffix="" phone=""/>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <Lender customerNumber=""/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="true"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="true"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="30"/>
+    </ProfileInputs>
+</Request>

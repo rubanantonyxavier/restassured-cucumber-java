@@ -1,0 +1,45 @@
+<Request outputMode="HTML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <CollateralManagerRequest loanAmt="987666.0" estimatedValue="0.0" saleAmt="0.0" loanNum="LOAN2022081616"
+                              loanPurpose="PURCHASE" customerNum="" searchDate="2022-08-16-07:00" retro="false"
+                              displayEquityRefi="true" alertServiceId="">
+        <Subject streetAddr="17901 COLLINS AVE UNIT 3805" houseNum="17901" preDir="" streetName="COLLINS" suffix="AVE"
+                 postDir="" unitNum="3805" city="SUNNY ISLES BEACH" state="FL" zip="33160" zip4="5679" fips="12086"
+                 msaCode="33124" msaName="MIAMI-MIAMI BEACH-KENDALL, FL" carrierRoute="C077" cbsaCode="370" cbsaName=""
+                 censusBlock="120860001261002"/>
+        <SubjectLocation censusTract="120860001261002" latitude="25941574" longitude="-80121066" geoAccuracy=""
+                         county=""/>
+    </CollateralManagerRequest>
+    <ProfileInputs>
+        <InputParameter inputName="REPORT_KEY" inputValue="LSCM3"/>
+        <InputParameter inputName="CITY" inputValue="SUNNY ISLES BEACH"/>
+        <InputParameter inputName="CARRIER_ROUTE" inputValue="C077"/>
+        <InputParameter inputName="BORROWER_USER_PURPOSE_DESC" inputValue="Purchase"/>
+        <InputParameter inputName="GEO_ACCURACY" inputValue="S"/>
+        <InputParameter inputName="COUNTYFIPS" inputValue="12086"/>
+        <InputParameter inputName="LATITUDE" inputValue="25941574"/>
+        <InputParameter inputName="LONGITUDE" inputValue="-80121066"/>
+        <InputParameter inputName="SEARCH_DATE" inputValue="20220816"/>
+        <InputParameter inputName="MSA_NAME" inputValue="Miami-Miami Beach-Kendall, FL"/>
+        <InputParameter inputName="MSA_CODE" inputValue="33124"/>
+        <InputParameter inputName="CSA_CODE" inputValue="370"/>
+        <InputParameter inputName="CBSA_NAME" inputValue="Miami-Fort Lauderdale-Miami Beach, FL"/>
+        <InputParameter inputName="REFI_EQ_FLAG" inputValue="true"/>
+        <InputParameter inputName="CBSA_CODE" inputValue="33100"/>
+        <InputParameter inputName="SUFFIX" inputValue="AVE"/>
+        <InputParameter inputName="RENDERTYPE" inputValue="HTML"/>
+        <InputParameter inputName="ADDRESS1" inputValue="17901 COLLINS AVE UNIT 3805"/>
+        <InputParameter inputName="CENSUS_BLOCK" inputValue="120860001261002"/>
+        <InputParameter inputName="BORROWER_LOANNUMBER" inputValue="Loan2022081616"/>
+        <InputParameter inputName="ADDRESS" inputValue="17901 COLLINS AVE UNIT 3805"/>
+        <InputParameter inputName="STATE" inputValue="FL"/>
+        <InputParameter inputName="ADDRESSES" inputValue="17901 COLLINS AVE UNIT 3805|33160"/>
+        <InputParameter inputName="UNIT" inputValue="3805"/>
+        <InputParameter inputName="ZIP4" inputValue="5679"/>
+        <InputParameter inputName="USER_LOAN_AMOUNT" inputValue="987666"/>
+        <InputParameter inputName="ZIP" inputValue="33160"/>
+        <InputParameter inputName="REPORT_SERVER" inputValue="PCF_RIPT: qa_0"/>
+        <InputParameter inputName="STREET" inputValue="COLLINS"/>
+        <InputParameter inputName="HOUSE" inputValue="17901"/>
+    </ProfileInputs>
+</Request>

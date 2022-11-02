@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <ReportOptions searchDate="2019-09-25-07:00"/>
+        <Reissue masterID="MI0a60ef5ddfda11e99174005056b13226" sourceLoanNumber="" sourceMasterID=""
+                 sourceCustomerNumber="" sourceUserId="" userId="CO869555" cacheLifeSpan="0.0" runType="SUBMIT"
+                 originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="1235000" firstTimeHomeBuyer="false" loanAmount="866925"
+                        loanNumber="Alert-OCC003" userCltv="75.0" userDti="37.077" userLtv="75.0" loanPurpose="Purchase"
+                        userDocTypeDesc="FullDoc" userOccupancyTypeDesc="PrimaryResidence"
+                        userPropertyType="SingleFamilyResidential" channelCode="Retail" userLienCode="First"
+                        userLoanProdDesc="Loan Sifter Template" mortgageTerm="" mortgageRate=""
+                        clientDiscretionaryField="" userSaleAmount="0" userCloseDate="2019-09-25-07:00"
+                        userAppDate="2019-09-19-07:00" userLoanPropertyTypeStd="RSFR"/>
+        <SubjectProperty>
+            <Address streetAddr="363 COUNTRYSIDE RD" city="OAK PARK" state="CA" zip="91377" fips="6111" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay="MTY1NzcxNDAzMTk3OA==aGefrExY3r9JwzSyTWL7XQ=="
+                  firstName="Florian" middleName="" lastName="Drescher" suffix="" phone="" dob="1971-01-21-08:00">
+            <CurrentAddress streetAddr="23684 Valley View Road" city="Calabasas" state="CA" zip="91302"/>
+            <OtherOwnedAddresses dispositionStatus="" propertyType="SingleFamily" currentResidence="false"
+                                 grossRentalIncome="4500.00">
+                <InputAddress streetAddr="23684 Valley View Road" city="Calabasas" state="CA" zip="91302"/>
+            </OtherOwnedAddresses>
+            <OtherOwnedAddresses dispositionStatus="RetainForRental" propertyType="SingleFamily"
+                                 currentResidence="false" grossRentalIncome="1905.92">
+                <InputAddress streetAddr="17430 Collins Street" city="Encino" state="CA" zip="91316"/>
+            </OtherOwnedAddresses>
+            <Employment employmentType="SELF" yearsOnTheJob="7.0">
+                <Employer employerName="Cloudwhiz Inc" phone="">
+                    <Address streetAddr="23684 Valley View Road" zip="91302" city="Calabasas" state="CA"/>
+                </Employer>
+                <Occupation jobTitle="President" soc="" yearsExperience="10.0"/>
+                <Income period="MONTHLY" base="8560.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                        total="0.0"/>
+            </Employment>
+        </Borrower>
+        <Lender customerNumber="90006981"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+</Request>

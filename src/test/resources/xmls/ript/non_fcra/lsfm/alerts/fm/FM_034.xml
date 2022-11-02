@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <Reissue userId="ADMN000027" runType="SUBMIT" masterID="MI29b10446765a40cca19f64a6617c38d7"
+                 channelID="CoreBatch"/>
+        <LoanAttributes estimatedValue="910000" firstTimeHomeBuyer="true" loanAmount="728000" loanNumber="LSFM-FM034"
+                        loanPurpose="Purchase" userCltv="80.0" userDocTypeDesc="FULL" userDti="14.2" userLtv="80.0"
+                        userOccupancyTypeDesc="PrimaryResidence" userPropertyType="SingleFamilyResidential"
+                        channelCode="HomeEquity"/>
+        <SubjectProperty>
+            <Address carrierRoute="" city="Spring Valley" streetAddr="7 PASADENA PL" county="ROCKLAND" fips="36087"
+                     houseNum="7" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="NY"
+                     streetName="Pasadena" suffix="Pl" unitNum="" unitType="" zip="10977" zip4="1210"
+                     latitude="41161439" longitude="-74050841" censusBlock="36-087-011509-2-00-5"
+                     cityStateZip="Spring Valley NY 10977" address="7 Pasadena Pl" inputStreetAddr="7 PASADENA PLACE"
+                     inputCity="" inputState="" inputZip="10977"/>
+            <Location censusTract="36-087-011509-2-00-5" county="ROCKLAND" latitude="41161439" longitude="-74050841"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" dob="1992-02-25" ssnEncryptedTwoWay="MTY0MTQ5MjYxNjI2NA==TvvmcbBCmTudRFRRNmkDwA=="
+                  firstName="Gail" lastName="Gagleston" ssnEncryptedOneWay="9edee98ff707e3e16dc0853f9e4c409f">
+            <CurrentAddress carrierRoute="R002" city="RISON" streetAddr="230 WOOLEY RD" county="CLEVELAND" fips="5025"
+                            houseNum="230" msaCode="38220" msaName="Pine Bluff, AR" cbsaCode="38220"
+                            cbsaName="Pine Bluff, AR" postDir="" preDir="" state="AR" streetName="WOOLEY" suffix="RD"
+                            unitNum="" unitType="" zip="71665" zip4="9028" latitude="33967110" longitude="-92036455"
+                            censusBlock="050259701001025" cityStateZip="RISON AR 71665" address="230 WOOLEY RD"/>
+            <CurrentLocation censusTract="050259701001025" county="CLEVELAND" latitude="33967110"
+                             longitude="-92036455"/>
+            <Employment>
+                <Employer employerName="Star City Schools" phone="">
+                    <Address carrierRoute="C001" city="STAR CITY" streetAddr="400 E ARKANSAS ST" county="LINCOLN"
+                             fips="5079" houseNum="400" msaCode="38220" msaName="Pine Bluff, AR" cbsaCode="38220"
+                             cbsaName="Pine Bluff, AR" postDir="" preDir="E" state="AR" streetName="ARKANSAS"
+                             suffix="ST" unitNum="" unitType="" zip="71667" zip4="4821" latitude="33942746"
+                             longitude="-91839205" censusBlock="050799605001013" cityStateZip="STAR CITY AR 71667"
+                             address="400 E ARKANSAS ST"/>
+                    <Location censusTract="050799605001013" county="LINCOLN" latitude="33942746" longitude="-91839205"/>
+                </Employer>
+                <Income base="3638.0" period="MONTHLY"/>
+                <Occupation jobTitle="Teacher"/>
+            </Employment>
+        </Borrower>
+        <Lender customerName="CL HOUSE ACCOUNT" customerNumber="9303884"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+
+    </ProfileInputs>
+</Request>

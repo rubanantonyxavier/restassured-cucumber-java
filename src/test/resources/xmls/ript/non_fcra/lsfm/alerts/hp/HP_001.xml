@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <LoanAttributes estimatedValue="860000" firstTimeHomeBuyer="false" loanAmount="688000" loanNumber="HP001-ALERT" loanPurpose="Refinance" refiPurpose="NoCashOutOther" userCltv="80.0" userDocTypeDesc="FULL" userDti="39.0" userLtv="80.0" userOccupancyTypeDesc="PrimaryResidence" userPropertyType="SINGLEFAMILY" channelCode="HomeEquity" userFundDate="2021-01-22"/>
+        <SubjectProperty>
+            <Address carrierRoute="" city="Nashville" streetAddr="925 11TH AVE N" county="DAVIDSON" fips="47037" houseNum="925" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="N" preDir="" state="TN" streetName="11th" suffix="Ave" unitNum="" unitType="" zip="37208" zip4="3109" latitude="36168723" longitude="-86795136" censusBlock="47-037-019400-1-04-9" cityStateZip="Nashville TN 37208" address="925 11th Ave N" inputStreetAddr="925 11th Ave N" inputCity="" inputState="" inputZip="37208"/>
+            <Location censusTract="47-037-019400-1-04-9" county="DAVIDSON" latitude="36168723" longitude="-86795136"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" dob="1982-02-28" ssnEncryptedTwoWay="" firstName="Brandon" lastName="Hall" ssnEncryptedOneWay="">
+            <CurrentAddress carrierRoute="C023" city="NASHVILLE" streetAddr="925 11TH AVE N" county="DAVIDSON" fips="47037" houseNum="925" msaCode="34980" msaName="Nashville-Davidson--Murfreesboro, TN" cbsaCode="34980" cbsaName="Nashville-Davidson--Murfreesboro, TN" postDir="N" preDir="" state="TN" streetName="11TH" suffix="AVE" unitNum="" unitType="" zip="37208" zip4="3109" latitude="36168723" longitude="-86795136" censusBlock="470370194001049" cityStateZip="NASHVILLE TN 37208" address="925 11TH AVE N"/>
+            <CurrentLocation censusTract="470370194001049" county="DAVIDSON" latitude="36168723" longitude="-86795136"/>
+            <Employment yearsOnTheJob="13.0" employmentType="W2">
+                <Employer employerName="One Hope Wine" phone="" years="13">
+                    <Address carrierRoute="C014" city="EL SEGUNDO" streetAddr="1301 E EL SEGUNDO BLVD" county="LOS ANGELES" fips="6037" houseNum="1301" msaCode="31084" msaName="Los Angeles-Long Beach-Glendale, CA" cbsaCode="31080" cbsaName="" postDir="" preDir="E" state="CA" streetName="EL SEGUNDO" suffix="BLVD" unitNum="" unitType="" zip="90245" zip4="4303" latitude="33916529" longitude="-118402481" censusBlock="060376200022023" cityStateZip="EL SEGUNDO CA 90245" address="1301 E EL SEGUNDO BLVD"/>
+                    <Firmographics yearsInBusiness="13"/>
+                    <Location censusTract="060376200022023" county="LOS ANGELES" latitude="33916529" longitude="-118402481"/>
+                </Employer>
+                <Income base="10099.0"/>
+                <Occupation jobTitle="Chief Brand Officer" yearsExperience="13"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerName="" brokerCode="" brokerDesc="" phone=""/>
+        <LoanOfficer firstName="Cameron" lastName="Myers"/>
+        <OtherLoanActor role="CLOSING AGENT" companyName="Bell Settlement" firstName="Teresa" middleName="" lastName="Tidwell"/>
+        <Lender customerName="CL HOUSE ACCOUNT" customerNumber="9303884"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="RESCORE" inputValue="N"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="Fraud_AllAlerts"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="N"/>
+        <InputParameter inputName="DISASTER_LOOKBACK" inputValue="12"/>
+    </ProfileInputs>
+</Request>

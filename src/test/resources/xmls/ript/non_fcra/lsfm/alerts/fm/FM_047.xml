@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+
+    <LSFMRequest>
+        <LoanAttributes estimatedValue="200000" firstTimeHomeBuyer="false" loanAmount="130000"
+                        loanNumber="LSFM-TC-QA-FM047" loanPurpose="HomeImprovement" refiPurpose="CashOutLimited"
+                        userCloseDate="1975-04-21" userDocTypeDesc="FULL" userDti="0.0"/>
+        <SubjectProperty>
+            <Address carrierRoute="C002" city="BOLIVAR" streetAddr="53 KINCAID ST" county="ALLEGANY" fips="36003"
+                     houseNum="53" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="NY"
+                     streetName="KINCAID" suffix="ST" unitNum="" unitType="" zip="14715" zip4="1206" latitude="42067018"
+                     longitude="-78165592" censusBlock="360039512005027" cityStateZip="BOLIVAR NY 14715"
+                     address="53 KINCAID ST"/>
+            <Location censusTract="360039512005027" county="ALLEGANY" latitude="42067018" longitude="-78165592"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="MTY0MTQ5MjYxNjI2NA==TvvmcbBCmTudRFRRNmkDwA==" firstName="GAIL"
+                  lastName="GAGLESTON" ssnEncryptedOneWay="">
+            <CurrentAddress carrierRoute="C040" city="WESTMINSTER" streetAddr="9952 WESTHAVEN CIR" county="ORANGE"
+                            fips="6059" houseNum="9952" msaCode="11244" msaName="" cbsaCode="31080" cbsaName=""
+                            postDir="" preDir="" state="CA" streetName="WESTHAVEN" suffix="CIR" unitNum="" unitType=""
+                            zip="92683" zip4="7552" latitude="33732958" longitude="-117955869"
+                            censusBlock="060590992233013" cityStateZip="WESTMINSTER CA 92683"
+                            address="9952 WESTHAVEN CIR"/>
+            <CurrentLocation censusTract="060590992233013" county="ORANGE" latitude="33732958" longitude="-117955869"/>
+            <Employment employmentType="W2">
+                <Employer employerName="First American CoreLogic" phone="">
+                    <Address carrierRoute="C028" city="SANTA ANA" streetAddr="4 FIRST AMERICAN WAY" county="ORANGE"
+                             fips="6059" houseNum="4" msaCode="11244" msaName="" cbsaCode="31080" cbsaName="" postDir=""
+                             preDir="" state="CA" streetName="FIRST AMERICAN" suffix="WAY" unitNum="" unitType=""
+                             zip="92707" zip4="5913" latitude="33702496" longitude="-117862041"
+                             censusBlock="060590740031080" cityStateZip="SANTA ANA CA 92707"
+                             address="4 FIRST AMERICAN WAY"/>
+                    <Location censusTract="060590740031080" county="ORANGE" latitude="33702496" longitude="-117862041"/>
+                </Employer>
+                <Income base="85000.0" overtime="10.0" commission="30.0" bonus="20.0" other="40.0" total="85000.0"
+                        period="ANNUAL"/>
+                <Occupation jobTitle="Software Engineer"/>
+            </Employment>
+        </Borrower>
+        <Borrower brwrNum="1" ssnEncryptedTwoWay="MTY0NjE4MDM3MzMyMQ==nb0BHWACkOiYcbKeomiahQ==" firstName="HOLLY"
+                  lastName="GOLDUR" ssnEncryptedOneWay="">
+            <CurrentAddress carrierRoute="C040" city="WESTMINSTER" streetAddr="9962 WESTHAVEN CIR" county="ORANGE"
+                            fips="6059" houseNum="9962" msaCode="11244" msaName="" cbsaCode="31080" cbsaName=""
+                            postDir="" preDir="" state="CA" streetName="WESTHAVEN" suffix="CIR" unitNum="" unitType=""
+                            zip="92683" zip4="7552" latitude="33732961" longitude="-117955762"
+                            censusBlock="060590992233013" cityStateZip="WESTMINSTER CA 92683"
+                            address="9962 WESTHAVEN CIR"/>
+            <CurrentLocation censusTract="060590992233013" county="ORANGE" latitude="33732961" longitude="-117955762"/>
+            <Employment employmentType="SELF">
+                <Employer employerName="River City Equities Inc." phone="">
+                    <Address carrierRoute="C005" city="PORTLAND" streetAddr="1001 SE WATER AVE STE 2500"
+                             county="MULTNOMAH" fips="41051" houseNum="1001" msaCode="38900"
+                             msaName="Portland-Vancouver-Beaverton, OR-WA" cbsaCode="38900"
+                             cbsaName="Portland-Vancouver-Beaverton, OR-WA" postDir="" preDir="SE" state="OR"
+                             streetName="WATER" suffix="AVE" unitNum="2500" unitType="STE" zip="97214" zip4="2147"
+                             latitude="45515449" longitude="-122666041" censusBlock="410510011011084"
+                             cityStateZip="PORTLAND OR 97214" address="1001 SE WATER AVE 2500"/>
+                    <Location censusTract="410510011011084" county="MULTNOMAH" latitude="45515449"
+                              longitude="-122666041"/>
+                </Employer>
+                <Income base="6500.0" overtime="100.0" commission="300.0" bonus="200.0" other="400.0" total="8000.0"
+                        period="MONTHLY"/>
+                <Occupation jobTitle="Realtor"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest/>
+        <Broker brokerName="ALL PRO MORTGAGE INC" brokerCode="138748" brokerId="138748" phone="">
+            <Address carrierRoute="C001" city="LIVERMORE" streetAddr="167 S P ST STE C" county="ALAMEDA" fips="6001"
+                     houseNum="167" msaCode="36084" msaName="Oakland-Fremont-Hayward, CA" cbsaCode="41860"
+                     cbsaName="San Francisco-Oakland-Fremont, CA" postDir="" preDir="S" state="CA" streetName="P"
+                     suffix="ST" unitNum="C" unitType="STE" zip="94550" zip4="4372" latitude="37678893"
+                     longitude="-121776085" censusBlock="060014516021036" cityStateZip="LIVERMORE CA 94550"
+                     address="167 S P ST C"/>
+        </Broker>
+        <Appraiser appraiserCode="APPR" phone="" license="5980" licenseState="KA" firstName="Robert" lastName="Roberts">
+            <Address carrierRoute="C040" city="WESTMINSTER" streetAddr="9952 WESTHAVEN CIR" county="ORANGE" fips="6059"
+                     houseNum="9952" msaCode="11244" msaName="" cbsaCode="31080" cbsaName="" postDir="" preDir=""
+                     state="CA" streetName="WESTHAVEN" suffix="CIR" unitNum="" unitType="" zip="92683" zip4="7552"
+                     latitude="33732958" longitude="-117955869" censusBlock="060590992233013"
+                     cityStateZip="WESTMINSTER CA 92683" address="9952 WESTHAVEN CIR"/>
+        </Appraiser>
+        <AccountExecutive firstName="Robert1" lastName="Robert2"/>
+        <AccountManager firstName="John1" lastName="John2"/>
+        <Lender customerNumber="0002A"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+
+</Request>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE REQUEST_GROUP SYSTEM "C2DRequestv2.0.dtd">
+<REQUEST_GROUP MISMOVersionID="2.1">
+    <REQUEST LoginAccountIdentifier="{{USER_NAME}}" LoginAccountPassword="{{USER_PASS}}"
+             _JobIdentifier="C2D-16-987654321" _CustomerReferenceIdentifier1="0000M"
+             _CustomerReferenceIdentifier2="freddieroot" _ServicerID="" _ChannelIdentifier="123">
+        <KEY _Name="LOSName"
+             _Value="1234567891234567891234567891234567891234567891234567891234567891234567891234567891234567891234567891"/>
+        <KEY _Name="LOSClientName"
+             _Value="123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"/>
+        <KEY _Name="LOSUserID"
+             _Value="123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"/>
+        <KEY _Name="LOSUserFirstName" _Value="1234567891234567891234567891234567891234567891234"/>
+        <KEY _Name="LOSUserLastName" _Value="1234567891234567891234567891234567891234567891234"/>
+        <KEY _Name="LOSUserRole" _Value="1234567891234567891234567891234567891234567891234"/>
+        <KEY _Name="LOSClientID" _Value=""/>
+        <KEY _Name="LOSUserEmail" _Value=""/>
+        <KEY _Name="LOSPostURL" _Value=""/>
+        <KEY _Name="LOSPostToken" _Value=""/>
+        <REQUESTDATA>
+            <PROPERTY_INFORMATION_REQUEST _ActionType="Submit">
+                <_CONNECT2DATA_PRODUCT _LoanSafeCollateralManager="Y" _IncludeRiptXml="Y" _IncludeHTMLIndicator="Y"
+                                       _IncludePDFIndicator="Y" _IncludeFraudPDFIndicator="Y"
+                                       _IncludeSearchCriteriaIndicator="Y" _IncludeDocTypeIndicator="Y"/>
+                <_PROPERTY_CRITERIA _StreetAddress="3125 VIA PUERTA" _PostalCode="92009"/>
+                <_SEARCH_CRITERIA>
+                    <_SUBJECT_SEARCH _UserProvidedEstimatedValue="1342343" _RequestedLoanAmount="34324"/>
+                    <_LOAN_CRITERIA _LoanNumber="LN_LSCM_CU_987654321"
+                                    _ApplicationDate="20090203" _LoanToValueRatio="65" _CombinedLoanToValueRatio="86"
+                                    _LoanStatus="Funded" _LoanProgram="FHA" _DocumentTypeDecription="FullDoc"
+                                    _FrontEndRatio="13" _LoanPurposeType="HomeEquity"
+                                    _RefinancePurposeType="NoCashOutStreamlinedRefinance"
+                                    _PropertyPurposeType="SecondaryResidence" _LienPositionType="First"
+                                    _FirstTimeHomeBuyer="No"/>
+                    <BORROWER _FirstName="MARK" _LastName="MARSUPIAL" _CreditScoreIdentifier="685" _SSN="351-76-2213"
+                              _HomePhone="5556965200" _DateOfBirth="11/29/1971" _EmploymentType="SalaryOrWageEarnerW2"
+                              _EmployerName="NORTHSIDE HOSPITAL" _EmployerAddress="JOHNSON FERRY"
+                              _EmployerCity="ATLANTA" _EmployerState="GA" _EmployerPostalCode="30342"
+                              _EmployerPhone="12345" _YearsAtEmployer="8" _YearsInProfession="8" _BaseIncome="4500"
+                              _Suffix="New Filed" _MaritalStatus="Married" _ExistingClientIndicator="No">
+                        <_ADDRESS _Address1="123 main st" _City="somecity" _State="somestate" _PostalCode="somezip"/>
+                        <COBORROWER _FirstName="Martin" _LastName="Marsupial" _SSN="263-12-4378"
+                                    _CreditScoreIdentifier="734" _HomePhone="12345" _DateOfBirth="11/29/1971"
+                                    _EmploymentType="SalaryOrWageEarnerW2" _EmployerName="NORTHSIDE HOSPITAL"
+                                    _EmployerAddress="JOHNSON FERRY RD" _EmployerCity="ATLANTA" _EmployerState="GA"
+                                    _EmployerPostalCode="30342" _EmployerPhone="12345" _BaseIncome="4500"
+                                    _MaritalStatus="Married" _Suffix="New Filed" _ExistingClientIndicator="No">
+                            <_ADDRESS _Address1="123 main st" _City="somecity" _State="somestate"
+                                      _PostalCode="somezip"/>
+                        </COBORROWER>
+                    </BORROWER>
+                    <BROKER _BrokerScoreCardNumber="">
+                        <_ADDRESS _Address1="167 SOUTH P STREET #C" _City="LIVERMORE" _State="CA" _PostalCode="94550"/>
+                    </BROKER>
+                </_SEARCH_CRITERIA>
+            </PROPERTY_INFORMATION_REQUEST>
+        </REQUESTDATA>
+    </REQUEST>
+</REQUEST_GROUP>

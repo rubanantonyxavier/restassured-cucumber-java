@@ -1,0 +1,40 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <CollateralManagerRequest loanAmt="0.0" estimatedValue="0.0" saleAmt="0.0" loanNum="" loanPurpose="" customerNum=""
+                              searchDate="2022-01-05-08:00" retro="true" displayEquityRefi="true" alertServiceId="">
+        <Subject streetAddr="1770 BRYANT AVE S" houseNum="1770" preDir="" streetName="BRYANT" suffix="AVE" postDir="S"
+                 unitNum="" city="MINNEAPOLIS" state="MN" zip="55403" zip4="3164" fips="27053" msaCode="33460"
+                 msaName="MINNEAPOLIS-ST. PAUL-BLOOMINGTON, MN-WI" carrierRoute="C014" cbsaCode="378"
+                 cbsaName="MINNEAPOLIS-ST. PAUL-ST. CLOUD, MN-WI" censusBlock="270531055001006"/>
+        <SubjectLocation censusTract="270531055001006" latitude="44965782" longitude="-93290733" geoAccuracy=""
+                         county=""/>
+    </CollateralManagerRequest>
+    <ProfileInputs>
+        <InputParameter inputName="REPORT_KEY" inputValue="LSCM3"/>
+        <InputParameter inputName="CITY" inputValue="MINNEAPOLIS"/>
+        <InputParameter inputName="CARRIER_ROUTE" inputValue="C014"/>
+        <InputParameter inputName="GEO_ACCURACY" inputValue="S"/>
+        <InputParameter inputName="COUNTYFIPS" inputValue="27053"/>
+        <InputParameter inputName="LATITUDE" inputValue="44965782"/>
+        <InputParameter inputName="LONGITUDE" inputValue="-93290733"/>
+        <InputParameter inputName="MSA_NAME" inputValue="Minneapolis-St. Paul-Bloomington, MN-WI"/>
+        <InputParameter inputName="CSA_NAME" inputValue="Minneapolis-St. Paul-St. Cloud, MN-WI"/>
+        <InputParameter inputName="POSTDIR" inputValue="S"/>
+        <InputParameter inputName="MSA_CODE" inputValue="33460"/>
+        <InputParameter inputName="CSA_CODE" inputValue="378"/>
+        <InputParameter inputName="CBSA_NAME" inputValue="Minneapolis-St. Paul-Bloomington, MN-WI"/>
+        <InputParameter inputName="REFI_EQ_FLAG" inputValue="true"/>
+        <InputParameter inputName="CBSA_CODE" inputValue="33460"/>
+        <InputParameter inputName="SUFFIX" inputValue="AVE"/>
+        <InputParameter inputName="RENDERTYPE" inputValue="HTML"/>
+        <InputParameter inputName="ADDRESS1" inputValue="1770 BRYANT AVE S"/>
+        <InputParameter inputName="CENSUS_BLOCK" inputValue="270531055001006"/>
+        <InputParameter inputName="ADDRESS" inputValue="1770 BRYANT AVE S"/>
+        <InputParameter inputName="STATE" inputValue="MN"/>
+        <InputParameter inputName="ZIP4" inputValue="3164"/>
+        <InputParameter inputName="ZIP" inputValue="55403"/>
+        <InputParameter inputName="REPORT_SERVER" inputValue="PCF_RIPT: uat_2"/>
+        <InputParameter inputName="STREET" inputValue="BRYANT"/>
+        <InputParameter inputName="HOUSE" inputValue="1770"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="HTML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <ReportOptions searchDate="2020-05-05-07:00"/>
+        <Reissue masterID="" sourceLoanNumber="" sourceMasterID="" sourceCustomerNumber="" sourceUserId="" userId=""
+                 cacheLifeSpan="0.0" runType="" originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="0" firstTimeHomeBuyer="false" loanAmount="" loanNumber="" userCltv="0.0"
+                        userDti="0.0" userLtv="0.0" loanPurpose="" userDocTypeDesc="" userOccupancyTypeDesc=""
+                        userPropertyType="" channelCode="" userLienCode="" userLoanProdDesc="" mortgageTerm=""
+                        mortgageRate="" clientDiscretionaryField="" userSaleAmount="0" userCloseDate="2020-05-05-07:00"
+                        userAppDate="2020-05-05-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="474afa028d86481689bc39a59efefc34"
+                  ssnEncryptedTwoWay="MTU4ODcwNDk5NzUzOQ==FMJ1PvXMXIuzalZdwJ3TfQ==" firstName="J" middleName=""
+                  lastName="Ardur" suffix="" phone=""/>
+        <Borrower brwrNum="1" ssnEncryptedOneWay="1522526ee30451bac3649c151831c678"
+                  ssnEncryptedTwoWay="MTU4ODcwNTAxMjU4MQ==MKAozFpeB1u1hTUoast7sA==" firstName="Rowena" middleName=""
+                  lastName="Goldetta" suffix="" phone=""/>
+        <Borrower brwrNum="2" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6"
+                  ssnEncryptedTwoWay="MTU4ODcwNTAyODA2OA==60e8auoV/ueSsIhSqFLuzQ==" firstName="Gregory" middleName="M"
+                  lastName="Carrin" suffix="" phone=""/>
+        <Borrower brwrNum="3" ssnEncryptedOneWay="e022dc7e36523dd71ddbf63a6aad3dc2"
+                  ssnEncryptedTwoWay="MTU4ODcwNTA0MjYzMg==XDaqejkiloK+XA9Y/MOsIQ==" firstName="Howard" middleName=""
+                  lastName="Kirkarzi" suffix="" phone=""/>
+        <Borrower brwrNum="4" ssnEncryptedOneWay="8680b128aba18790188a0e184d2ddd8c"
+                  ssnEncryptedTwoWay="MTU4ODcwNTA2NTMwOA==TvvmcbBCmTudRFRRNmkDwA==" firstName="Gayle" middleName=""
+                  lastName="Gagleston" suffix="" phone=""/>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <Lender customerNumber=""/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.0"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="true"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,45 @@
+<Request outputMode="XMLWithHiddenFields" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false"
+         branding="" sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <CollateralManagerRequest loanAmt="90000.0" estimatedValue="0.0" saleAmt="0.0" loanNum="LOANLSCM123"
+                              loanPurpose="CONSTRUCTIONTOPERMANENT" customerNum="" searchDate="2022-01-11-08:00"
+                              retro="true" displayEquityRefi="true" alertServiceId="">
+        <Subject city="Gulf Shores" streetAddr="492 Bernard" county="" houseNum="492" state="AL" streetName="Bernard"
+                 suffix="" zip="36542" zip4="7818" cityStateZip="Gulf Shores AL 36542" address="492 Bernard"
+                 inputStreetAddr="492 Bernard" inputCity="Gulf Shores" inputState="AL" inputZip="36542"/>
+        <SubjectLocation censusTract="060670054031006" latitude="38566043" longitude="-121417727" geoAccuracy=""
+                         county=""/>
+    </CollateralManagerRequest>
+    <ProfileInputs>
+        <InputParameter inputName="REPORT_KEY" inputValue="LSCM3"/>
+        <InputParameter inputName="PRIVATE_PARTY_LENDER" inputValue="20"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="LSCM_DEFAULT"/>
+        <InputParameter inputName="CITY" inputValue="SACRAMENTO"/>
+        <InputParameter inputName="CARRIER_ROUTE" inputValue="C076"/>
+        <InputParameter inputName="BORROWER_USER_PURPOSE_DESC" inputValue="ConstructionToPermanent"/>
+        <InputParameter inputName="GEO_ACCURACY" inputValue="S"/>
+        <InputParameter inputName="COUNTYFIPS" inputValue="06067"/>
+        <InputParameter inputName="LATITUDE" inputValue="38566043"/>
+        <InputParameter inputName="LONGITUDE" inputValue="-121417727"/>
+        <InputParameter inputName="MSA_NAME" inputValue="Sacramento-Arden-Arcade-Roseville, CA"/>
+        <InputParameter inputName="CSA_NAME" inputValue="Sacramento-Arden-Arcade-Truckee, CA-NV"/>
+        <InputParameter inputName="MSA_CODE" inputValue="40900"/>
+        <InputParameter inputName="CSA_CODE" inputValue="472"/>
+        <InputParameter inputName="CBSA_NAME" inputValue="Sacramento-Arden-Arcade-Roseville, CA"/>
+        <InputParameter inputName="REFI_EQ_FLAG" inputValue="true"/>
+        <InputParameter inputName="CBSA_CODE" inputValue="40900"/>
+        <InputParameter inputName="SUFFIX" inputValue="PL"/>
+        <InputParameter inputName="RENDERTYPE" inputValue="XML_INPUT"/>
+        <InputParameter inputName="ADDRESS1" inputValue="202 HARTNELL PL"/>
+        <InputParameter inputName="CENSUS_BLOCK" inputValue="060670054031006"/>
+        <InputParameter inputName="BORROWER_LOANNUMBER" inputValue="LoanLSCM123"/>
+        <InputParameter inputName="ADDRESS" inputValue="202 HARTNELL PL"/>
+        <InputParameter inputName="STATE" inputValue="CA"/>
+        <InputParameter inputName="ADDRESSES" inputValue="202 HARTNELL PL|95825"/>
+        <InputParameter inputName="ZIP4" inputValue="6612"/>
+        <InputParameter inputName="USER_LOAN_AMOUNT" inputValue="90000"/>
+        <InputParameter inputName="ZIP" inputValue="95825"/>
+        <InputParameter inputName="REPORT_SERVER" inputValue="PCF_RIPT: qa_0"/>
+        <InputParameter inputName="STREET" inputValue="HARTNELL"/>
+        <InputParameter inputName="HOUSE" inputValue="202"/>
+    </ProfileInputs>
+</Request>

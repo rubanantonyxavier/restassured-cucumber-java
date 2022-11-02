@@ -1,0 +1,48 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding="" sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <LSFMRequest>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="500000" firstTimeHomeBuyer="false" loanAmount="450000" loanNumber="jgLsada31" userCltv="0.0" userDti="0.0" userLtv="0.0" loanPurpose="PURCHASE" userDocTypeDesc="F" userOccupancyTypeDesc="PRIMARYRESIDENCE" userPropertyType="" channelCode="" userLienCode="" userLoanProdDesc="" mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="0" userCloseDate="2021-10-13-07:00" userAppDate="2021-10-13-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="1255 COLLINS AVE 503" unitNum="503" city="MIAMI BEACH" state="FL" zip="33139" fips="0" apn="" inputStreetAddr="1255 COLLINS AVE" inputUnitNum="503" inputCity="MIAMI BEACH" inputState="FL" inputZip="33139"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6" ssnEncryptedTwoWay="MTYzNDE1NjU4NTkyMg==60e8auoV/ueSsIhSqFLuzQ==" firstName="Kelly" middleName="" lastName="Ardmille" suffix="" phone="" dob="2021-10-13-07:00">
+            <CurrentAddress streetAddr="202 Hartnell" city="Sacramento" state="CA" zip="95825"/>
+            <Employment employmentType="W2" yearsOnTheJob="0.5">
+                <Employer employerName="CannaBama LLC" phone="">
+                    <Address streetAddr="5320 Summerfield Dr E" zip="35404" city="Tuscaloosa" state="AL"/>
+                </Employer>
+                <Occupation jobTitle="Boss" soc="" yearsExperience=""/>
+                <Income period="MONTHLY" base="18547.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0" total="0.0"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <Lender customerNumber=""/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="REPORT_KEY" inputValue="LSFM3"/>
+        <InputParameter inputName="BORROWER_SEQ0" inputValue="-1"/>
+        <InputParameter inputName="BYPASS_RIPT_CACHE" inputValue="true"/>
+        <InputParameter inputName="CUROWN_SUBJ_DIFF_FILTER" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_SHOW_SEARCH_SUMMARY" inputValue="Y"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_GOV_ON" inputValue="true"/>
+        <InputParameter inputName="HIDE_FM_STATS_DISTRIBUTION" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_ON" inputValue="true"/>
+        <InputParameter inputName="DISPLAY_MLS_DATA" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="FRAUD_MODEL_ENGINE" inputValue="true"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.0"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_ON" inputValue="true"/>
+        <InputParameter inputName="RENDERTYPE" inputValue="XML_INPUT"/>
+        <InputParameter inputName="LNSFFM_NMLS_FILTER_BY_STATES" inputValue="Y"/>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_NMLS" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_GOV_ON" inputValue="true"/>
+        <InputParameter inputName="REPORT_SERVER" inputValue="PCF_RIPT: qa_0"/>
+    </ProfileInputs>
+</Request>

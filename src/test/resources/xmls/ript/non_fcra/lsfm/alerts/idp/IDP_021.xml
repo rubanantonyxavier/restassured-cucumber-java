@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <ReportOptions searchDate="2014-10-01"/>
+        <LoanAttributes estimatedValue="0" firstTimeHomeBuyer="false" loanAmount="500000"
+                        loanNumber="JTEST-IDP060-31-20-21-22" userCltv="0.0" userDti="0.0" userLtv="0.0" loanPurpose=""
+                        userDocTypeDesc="" userOccupancyTypeDesc="PrimaryResidence" userPropertyType="" channelCode=""
+                        userLienCode="" userLoanProdDesc="" mortgageTerm="" mortgageRate="" clientDiscretionaryField=""
+                        userSaleAmount="0" userCloseDate="2016-01-04-08:00"/>
+        <SubjectProperty>
+            <Address streetAddr="17187 BARBEE ST" city="FONTANA" state="CA" zip="92336"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="MTY0NjE4MDU2NDUyMg==tRWH1I7Zek+p9XTI3fzciw==" firstName="HARVEY"
+                  middleName="" lastName="ZELLARZI" phone="9092331324" dob="1962-05-12-07:00" creditScore="0">
+            <CurrentAddress streetAddr="5982 COHNWALL TRL" city="ALPHARIVER" state="MI" zip="59981"/>
+        </Borrower>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+</Request>

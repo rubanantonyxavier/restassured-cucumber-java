@@ -1,0 +1,67 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <LSFMRequest>
+        <ReportOptions searchDate="2022-07-27-07:00"/>
+        <Reissue masterID="" sourceLoanNumber="" sourceMasterID="" sourceCustomerNumber="" sourceUserId="" userId=""
+                 cacheLifeSpan="0.0" runType="" originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="600000" firstTimeHomeBuyer="false" loanAmount="500000"
+                        loanNumber="SUPPRESSIDP067" userCltv="0.0" userDti="0.0" userLtv="0.0" loanPurpose="REFINANCE"
+                        refiPurpose="" userDocTypeDesc="" userPropertyType="" userLoanTypeDesc=""
+                        userOccupancyTypeDesc="PRIMARYRESIDENCE" channelCode="" userLienCode="" userLoanProdDesc=""
+                        mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="0"
+                        userCloseDate="2022-07-27-07:00" userAppDate="2022-07-27-07:00" agencyCaseNumber=""
+                        borrowerCount="" otherDesc="" manufacturedHome="" refinanceProgram="" otherRefinanceProgram=""
+                        projectType="" userLoanPropertyTypeStd="RCON"/>
+        <SubjectProperty>
+            <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn="" unitType=""
+                     unitIdentifier="" numUnits="0"/>
+        </SubjectProperty>
+        <SubjectRentalIncome/>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6"
+                  ssnEncryptedTwoWay="MTY1ODkzMjE1NDYzOQ==60e8auoV/ueSsIhSqFLuzQ==" firstName="Kelly" middleName=""
+                  lastName="Ardmille" suffix="" phone=""/>
+        <QualifyingTheBorrower costOfImprovementsRepairs="" originalLandCost="" landAppraisedValue="" subjectPayoffs=""
+                               nonSubjectPayoffs="" estimatedClosingCosts="" borrowerPaidPoints=""
+                               totalDueFromBorrower="" baseLoanAmount="" financedMortgageInsurance=""
+                               subordinateFinancing="" totalMortgageLoansAmount="" sellerCreditAmount=""
+                               otherCreditAmount="" totalCreditAmount="" cashToBorrower="" cashFromBorrower=""/>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <OtherLoanActor firstName="Anne" middleName="" lastName="Ardmille" suffix="" role="Non Borrowing Owner"/>
+        <OtherLoanActor firstName="Dorothy" middleName="" lastName="Ardmille" suffix="" role="Non-Borrowing Owner"/>
+        <OtherLoanActor firstName="Lucy" middleName="" lastName="Ardmille" suffix="" role="non Borrowing owner"/>
+        <OtherLoanActor firstName="Louis" middleName="" lastName="Ardmille" suffix="" role="NON BORROWING OWNER"/>
+        <OtherLoanActor firstName="Thomas" middleName="" lastName="Ardmille" suffix="" role="NON-BORROWING OWNER"/>
+        <OtherLoanActor firstName="John" middleName="" lastName="Ardmille" suffix="" role="non borrower owner"/>
+        <OtherLoanActor firstName="Jessica" middleName="" lastName="Ardmille" suffix="" role="Agent Borrower"/>
+        <OtherLoanActor firstName="Nataly" middleName="" lastName="Ardmille" suffix="" role="TITLE AKA"/>
+        <OtherLoanActor firstName="Susan" middleName="" lastName="Ardmille" suffix="" role="Attorney"/>
+        <Lender customerNumber=""/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_AP_LIC_SEARCH_ON" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH_BY_MAIL" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_SERVICER_ID_CHECK" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SHOW_INACTIVE" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="LSFM_DEFAULT"/>
+        <InputParameter inputName="ALLOW_MICKEYMOUSE_SSN" inputValue="N"/>
+        <InputParameter inputName="AVMSELECT_BILLINGMODE" inputValue="TEST"/>
+        <InputParameter inputName="BROKER_LOOKUP" inputValue="N"/>
+        <InputParameter inputName="BROKER_LOOKUP_OUTPUT" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLIENPOSITION" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLOANSTATUS" inputValue="N"/>
+        <InputParameter inputName="BUSSEARCH_RECORD_CNT" inputValue="25"/>
+        <InputParameter inputName="BYPASS_AVMSELECT_CACHE" inputValue="N"/>
+        <InputParameter inputName="BYPASS_RIPT_CACHE" inputValue="true"/>
+        <InputParameter inputName="CACHE_EXPIRATION_OVERRIDE" inputValue="0"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+    </ProfileInputs>
+</Request>

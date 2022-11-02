@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSRMRequest>
+        <LSFMRequestInfo runCollateralModel="true">
+            <ReportOptions searchDate="2021-10-18-07:00"/>
+            <Reissue masterID="" sourceLoanNumber="" sourceMasterID="" sourceCustomerNumber="" sourceUserId="" userId=""
+                     cacheLifeSpan="0.0" runType="" originalRiptID="" originalRunType="" originalRunDate=""
+                     channelID=""/>
+            <FraudOptions>
+                <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+            </FraudOptions>
+            <LoanAttributes estimatedValue="0" firstTimeHomeBuyer="false" loanAmount="144000" loanNumber="1702705291"
+                            userCltv="57.14" userDti="0.0" userLtv="57.14" loanPurpose="Purchase" userDocTypeDesc=""
+                            userOccupancyTypeDesc="PrimaryResidence" userPropertyType="UNITS-2"
+                            channelCode="Correspondent" userLienCode="" userLoanProdDesc="CONVENTIONAL 30-YEAR FIXED"
+                            mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="256000"
+                            userCloseDate="2021-10-18-07:00" userAppDate="2021-10-18-07:00"
+                            userLoanProdDescStd="CONVENTIONAL 30-YEAR FIXED" userLoanPropertyTypeStd=""/>
+            <SubjectProperty>
+                <Address streetAddr="80 TOPONCE DR # 84" city="POCATELLO" state="ID" zip="83204" fips="0" apn=""/>
+            </SubjectProperty>
+            <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay="" firstName="WENDY" middleName=""
+                      lastName="TURNER" suffix="" creditScore="635" phone="">
+                <Employment>
+                    <Income period="MONTHLY" base="0.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                            total="0.0"/>
+                </Employment>
+            </Borrower>
+            <Lender customerName="CORELOGIC" customerNumber=""/>
+        </LSFMRequestInfo>
+    </LSRMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+    </ProfileInputs>
+</Request>

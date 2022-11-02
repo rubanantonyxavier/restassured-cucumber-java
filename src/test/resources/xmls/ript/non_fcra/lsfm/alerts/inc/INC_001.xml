@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+
+        <ReportOptions searchDate="2020-07-18-07:00"/>
+        <Reissue masterID="" sourceLoanNumber="" sourceMasterID="" sourceCustomerNumber="" sourceUserId="" userId=""
+                 cacheLifeSpan="0.0" runType="" originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="0" firstTimeHomeBuyer="false" loanAmount="343233" loanNumber="LSFM-TC-QA-INC001"
+                        userCltv="0.0" userDti="0.0" userLtv="0.0" loanPurpose="" userDocTypeDesc=""
+                        userOccupancyTypeDesc="" userPropertyType="" channelCode="" userLienCode="" userLoanProdDesc=""
+                        mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="0"
+                        userCloseDate="2020-07-18-07:00" userAppDate="2020-07-18-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6"
+                  ssnEncryptedTwoWay="MTU5NTExMTI5MDU0NA==60e8auoV/ueSsIhSqFLuzQ==" firstName="Kelly" middleName=""
+                  lastName="Ardmille" suffix="" phone="">
+            <CurrentAddress streetAddr="1001 Farm to Market 685" city="Pflugerville" state="TX" zip="78660"/>
+            <Employment employmentType="SELF" yearsOnTheJob="0.0">
+                <Employer employerName="MAXAIR, INC" phone="2146209015">
+                    <Address streetAddr="202 HARTNELL PL" zip="95825" city="SACRAMENTO" state=""/>
+                </Employer>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <Lender customerNumber=""/>
+
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="IDPRO_BWR_LOOKUP_VENDOR_PREF" inputValue="TARGUS,TELEMATCH"/>
+        <InputParameter inputName="IDPRO_EMP_LOOKUP_VENDOR_PREF" inputValue="TELEMATCH,TARGUS"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+
+</Request>

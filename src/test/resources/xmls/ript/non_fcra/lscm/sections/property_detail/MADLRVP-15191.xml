@@ -1,0 +1,42 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <CollateralManagerRequest loanAmt="6000.0" estimatedValue="0.0" saleAmt="0.0" loanNum="LOAN111" loanPurpose=""
+                              customerNum="" searchDate="2022-01-04-08:00" retro="true" displayEquityRefi="true"
+                              alertServiceId="">
+        <Subject carrierRoute="C033" city="MIAMI" streetAddr="151 SE 1ST ST" county="MIAMI-DADE" fips="12086"
+                 houseNum="151" msaCode="33124" msaName="Miami-Miami Beach-Kendall, FL" cbsaCode="33100"
+                 cbsaName="Miami-Fort Lauderdale-Miami Beach, FL" postDir="" preDir="SE" state="FL" streetName="1ST"
+                 suffix="ST" unitNum="" unitType="" zip="33131" zip4="1418" latitude="25773519" longitude="-80191086"
+                 censusBlock="120860037041007" cityStateZip="MIAMI FL 33131" address="151 SE 1ST ST"
+                 inputStreetAddr="151 SE 1ST  STREET" inputCity="MIAMI" inputState="FL" inputZip="33131"/>
+        <Location censusTract="120860037041007" county="MIAMI-DADE" latitude="25773519" longitude="-80191086"/>
+    </CollateralManagerRequest>
+    <ProfileInputs>
+        <InputParameter inputName="REPORT_KEY" inputValue="LSCM3"/>
+        <InputParameter inputName="CITY" inputValue="SAINT PAUL"/>
+        <InputParameter inputName="GEO_ACCURACY" inputValue="S"/>
+        <InputParameter inputName="COUNTYFIPS" inputValue="27037"/>
+        <InputParameter inputName="LATITUDE" inputValue="44891037"/>
+        <InputParameter inputName="LONGITUDE" inputValue="-93150253"/>
+        <InputParameter inputName="MSA_NAME" inputValue="Minneapolis-St. Paul-Bloomington, MN-WI"/>
+        <InputParameter inputName="CSA_NAME" inputValue="Minneapolis-St. Paul-St. Cloud, MN-WI"/>
+        <InputParameter inputName="MSA_CODE" inputValue="33460"/>
+        <InputParameter inputName="CSA_CODE" inputValue="378"/>
+        <InputParameter inputName="CBSA_NAME" inputValue="Minneapolis-St. Paul-Bloomington, MN-WI"/>
+        <InputParameter inputName="REFI_EQ_FLAG" inputValue="true"/>
+        <InputParameter inputName="CBSA_CODE" inputValue="33460"/>
+        <InputParameter inputName="SUFFIX" inputValue="CIR"/>
+        <InputParameter inputName="RENDERTYPE" inputValue="XML_INPUT"/>
+        <InputParameter inputName="ADDRESS1" inputValue="1234 ORCHARD UPDATE 22"/>
+        <InputParameter inputName="CENSUS_BLOCK" inputValue="270370606041015"/>
+        <InputParameter inputName="BORROWER_LOANNUMBER" inputValue="LoanLuciana111"/>
+        <InputParameter inputName="ADDRESS" inputValue="1234 ORCHARD UPDATE 22"/>
+        <InputParameter inputName="STATE" inputValue="MN"/>
+        <InputParameter inputName="ADDRESSES" inputValue="1234 ORCHARD UPDATE 22|55110"/>
+        <InputParameter inputName="USER_LOAN_AMOUNT" inputValue="6000"/>
+        <InputParameter inputName="ZIP" inputValue="55118"/>
+        <InputParameter inputName="REPORT_SERVER" inputValue="PCF_RIPT: qa_0"/>
+        <InputParameter inputName="STREET" inputValue="ORCHARD"/>
+        <InputParameter inputName="HOUSE" inputValue="1234"/>
+    </ProfileInputs>
+</Request>

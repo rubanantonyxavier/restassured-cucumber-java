@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSRMRequest>
+        <LSFMRequestInfo>
+            <LoanAttributes estimatedValue="410000" loanAmount="350000" loanNumber="LSRM-Property-4Owners"
+                            loanPurpose="Purchase" refiPurpose="" userOccupancyTypeDesc="Investment"
+                            userPropertyType="SINGLEFAMILY" channelCode="RETAIL"/>
+            <SubjectProperty>
+                <Address streetAddr="2629 Vail Ave" city="CHARLOTTE" state="NC" zip="28207" fips="0" apn=""/>
+            </SubjectProperty>
+
+            <Borrower brwrNum="0" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6"
+                      ssnEncryptedTwoWay="MTY0MTI0NDIwNTkwOA==60e8auoV/ueSsIhSqFLuzQ==" firstName="Kelly" middleName=""
+                      lastName="Ardmille" suffix="" phone="" dob="2010-01-01-08:00">
+                <CurrentAddress carrierRoute="C076" city="SACRAMENTO" streetAddr="202 HARTNELL PL" county="SACRAMENTO"
+                                fips="6067" houseNum="202" msaCode="40900"
+                                msaName="Sacramento--Arden-Arcade--Roseville, CA" cbsaCode="40900"
+                                cbsaName="Sacramento--Arden-Arcade--Roseville, CA" postDir="" preDir="" state="CA"
+                                streetName="HARTNELL" suffix="PL" unitNum="" unitType="" zip="95825" zip4="6612"
+                                latitude="38566043" longitude="-121417727" censusBlock="060670054031006"
+                                cityStateZip="SACRAMENTO CA 95825" address="202 HARTNELL PL"/>
+                <CurrentLocation censusTract="060670054031006" county="SACRAMENTO" latitude="38566043"
+                                 longitude="-121417727"/>
+                <Employment employmentType="W2">
+                    <Employer employerName="United Cannibis Corporation" phone="">
+                        <Address streetAddr="9249 S Broadway" zip="80129" city="Littleton" state="CO"/>
+                    </Employer>
+                    <Occupation jobTitle="Manager"/>
+                </Employment>
+            </Borrower>
+            <Lender customerName="DEFAULTVALUE1" customerNumber="455"/>
+        </LSFMRequestInfo>
+    </LSRMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="Fraud_AllAlerts"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="IDPRO_VENDOR_PREF" inputValue="AIBR-V1.6,AIBS-V1.6"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="MRB_SEARCH" inputValue="N"/>
+        <InputParameter inputName="MRB_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="PULL_LSC_ALERT_SUMMARY" inputValue="Y"/>
+        <InputParameter inputName="REISSUE_COMPARE" inputValue="Y"/>
+        <InputParameter inputName="REO_COMPARE" inputValue="Y"/>
+        <InputParameter inputName="REPORT_CONFIG" inputValue=""/>
+        <InputParameter inputName="USE_EXTERNAL_WL_SVC" inputValue="Y"/>
+        <InputParameter inputName="RESCORE" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_REASON_CODES" inputValue="Y"/>
+    </ProfileInputs>
+</Request>

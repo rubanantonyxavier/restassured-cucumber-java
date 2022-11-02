@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSRMRequest>
+        <LSFMRequestInfo>
+            <LoanAttributes loanPurpose="NonCashOutRefinance" loanNumber="LSRM-SARA-NotRate" loanAmount="260000"
+                            estimatedValue="300000" userAppDate="2019-12-12" mortgageRate="3.875"
+                            userLoanProdDesc="Fannie Mae HomeReady 30 Yr Fixed" channelCode="Correspondent"
+                            userPropertyType="Condominium" userOccupancyTypeDesc="PrimaryResidence" userLtv="86.667"
+                            userDti="24.269" userDocTypeDesc="FULL" userCltv="86.667" refiPurpose="ChangeInRateTerm"
+                            firstTimeHomeBuyer="false"/>
+            <SubjectProperty>
+                <Address apn="8290-99-5858.01" cityStateZip="WOODBRIDGE VA 22191" county="PRINCE WILLIAM"
+                         censusBlock="511539007012027" address="15534 JOHN DISKIN CIR"
+                         streetAddr="15534 JOHN DISKIN CIR" zip4="6377" zip="22191" unitType="" unitNum="" suffix="CIR"
+                         streetName="JOHN DISKIN" state="VA" preDir="" postDir=""
+                         cbsaName="Washington-Arlington-Alexandria, DC-VA-MD-WV" cbsaCode="47900"
+                         msaName="Washington-Arlington-Alexandria, DC-VA-MD-WV" msaCode="47894" houseNum="15534"
+                         fips="51153" city="WOODBRIDGE" carrierRoute="C004" longitude="-77286791" latitude="38615832"/>
+                <Location county="PRINCE WILLIAM" longitude="-77286791" latitude="38615832"
+                          censusTract="511539007012027"/>
+            </SubjectProperty>
+            <Borrower lastName="Weeks" middleName="M" firstName="Peter" ssnEncryptedOneWay="" ssnEncryptedTwoWay=""
+                      dob="1994-12-28" brwrNum="0"/>
+            <NMLSSearchRequest nmlsIds=""/>
+            <Broker>
+                <Address cityStateZip="" county="" censusBlock="" address="" zip4="0" unitType="" unitNum="" suffix=""
+                         streetName="" state="" preDir="" postDir="" cbsaName="" cbsaCode="" msaName="" msaCode=""
+                         houseNum="" city="" carrierRoute=""/>
+            </Broker>
+            <OtherLoanActor role="Settlement Agent" companyName="MBH Settlement Group" propState="CA" lastName="Welch"
+                            firstName="Jaime"/>
+            <Lender customerNumber="9303884" customerName="CL House Account"/>
+        </LSFMRequestInfo>
+    </LSRMRequest>
+    <ProfileInputs>
+        <InputParameter inputValue="Y" inputName="WIRE_FRAUD"/>
+        <InputParameter inputValue="FRAUD_ALLALERTS" inputName="ALERT_SVC_ID"/>
+        <InputParameter inputValue="4" inputName="FM_MODEL"/>
+    </ProfileInputs>
+</Request>

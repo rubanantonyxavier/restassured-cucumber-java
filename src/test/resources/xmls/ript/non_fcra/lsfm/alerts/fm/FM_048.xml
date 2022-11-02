@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <ReportOptions searchDate="2019-09-12-07:00"/>
+        <LoanAttributes estimatedValue="999950" firstTimeHomeBuyer="true" loanAmount="616800"
+                        loanNumber="LSFM-TC-QA-FM048" userCltv="90.0" userDti="95.0" userLtv="90.0"
+                        loanPurpose="CashOutRefinance" userDocTypeDesc="FULL" userOccupancyTypeDesc="PrimaryResidence"
+                        userPropertyType="SINGLEFAMILY" channelCode="OTHER" userLienCode=""
+                        userLoanProdDesc="CONVENTIONAL" mortgageTerm="" mortgageRate="" clientDiscretionaryField=""
+                        userSaleAmount="0" userCloseDate="2019-09-12-07:00" userAppDate="2019-09-12-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="4 JOAN AVE" city="NOVATO" state="CA" zip="94947" fips="41" apn="140-141-19"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay="MTU3ODMyMzU3MDY3Nw==1pAdauFSlejFJv9yUt3kTw==
+" firstName="daniel" middleName="J." lastName="GREENOSHI" suffix="" creditScore="0" phone="4152509511"
+                  dob="1993-09-26-07:00">
+            <CurrentAddress streetAddr="4 Joan Avenue" city="Novato" state="CA" zip="94947"/>
+            <Employment employmentType="W2" yearsOnTheJob=".16">
+                <Employer employerName="County of Marin c o DOF" phone="4154732731">
+                    <Address streetAddr="3501 Civic Center Dr Rm 225" zip="94903" city="San Rafael" state="CA"/>
+                </Employer>
+                <Occupation jobTitle="Fire Engineer" soc="" yearsExperience="17.0"/>
+                <Income period="MONTHLY" base="18452.0" overtime="0.0" bonus="1110.0" commission="0.0" other="0.0"
+                        total="0.0"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <Lender customerNumber="9304606"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="IDPRO_BWR_LOOKUP_VENDOR_PREF" inputValue="TARGUS,TELEMATCH"/>
+        <InputParameter inputName="IDPRO_EMP_LOOKUP_VENDOR_PREF" inputValue="TELEMATCH,TARGUS"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+</Request>

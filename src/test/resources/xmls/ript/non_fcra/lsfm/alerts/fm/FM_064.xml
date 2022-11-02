@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+
+        <LoanAttributes estimatedValue="95000" firstTimeHomeBuyer="true" loanAmount="86490"
+                        loanNumber="LSFM-TC-QA-FM064" userCltv="97.0" userDti="45.0" userLtv="93.0"
+                        loanPurpose="Purchase" userDocTypeDesc="FULL" userOccupancyTypeDesc="PrimaryResidence"
+                        userPropertyType="Condo" channelCode="RETAIL" userLienCode="" userLoanProdDesc=""
+                        mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="93000"/>
+        <SubjectProperty>
+            <Address streetAddr="4521 GREENHOLME DR APT 3" city="SACRAMENTO" state="CA" zip="95842" fips="0" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="MTU3ODMyMzU3MDY3Nw==1pAdauFSlejFJv9yUt3kTw==
+" firstName="Mohammaad" middleName="" lastName="Al-Iman" suffix="" phone="" dob="1987-07-18-07:00" creditScore="736">
+            <CurrentAddress streetAddr="650 E 17th St Apt 29" city="Oakland" state="CA" zip="94606"/>
+        </Borrower>
+        <Lender customerNumber="1234A"/>
+    </LSFMRequest>
+
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+
+    </ProfileInputs>
+
+</Request>

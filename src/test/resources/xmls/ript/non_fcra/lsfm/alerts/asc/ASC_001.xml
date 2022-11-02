@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+
+    <LSFMRequest>
+
+        <LoanAttributes estimatedValue="272000" firstTimeHomeBuyer="true" loanAmount="257450" loanNumber="ASC001-ALERT"
+                        loanPurpose="Purchase" userCltv="95.0" userDocTypeDesc="FULL" userDti="37.575" userLtv="95.0"
+                        userOccupancyTypeDesc="PrimaryResidence" userPropertyType="ManufacturedHousing"
+                        channelCode="Retail" userLienCode="First" userLoanProdDesc="Conv FR30 FHLMC - Home Possible"
+                        mortgageRate="3.125" userAppDate="2021-08-31"/>
+        <SubjectProperty>
+            <Address carrierRoute="R002" city="MAPLE FALLS" streetAddr="6311 OVERLAND TRL" county="WHATCOM" fips="53073"
+                     houseNum="6311" msaCode="13380" msaName="Bellingham, WA" cbsaCode="13380" cbsaName="Bellingham, WA"
+                     postDir="" preDir="" state="WA" streetName="OVERLAND" suffix="TRL" unitNum="" unitType=""
+                     zip="98266" zip4="7905" latitude="48934935" longitude="-122142675" censusBlock="530730101002036"
+                     apn="400527 318544 0000 / 143661" cityStateZip="MAPLE FALLS WA 98266" address="6311 OVERLAND TRL"
+                     inputStreetAddr="6311 OVERLAND TRAIL" inputCity="MAPLE FALLS" inputState="WA" inputZip="98266"/>
+            <Location censusTract="530730101002036" county="WHATCOM" latitude="48934935" longitude="-122142675"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" dob="1976-06-18" phone="3602242459" ssnEncryptedOneWay="" ssnEncryptedTwoWay=""
+                  firstName="Ron" lastName="Allen">
+            <CurrentAddress carrierRoute="R006" city="FERNDALE" streetAddr="6074 PACIFIC HEIGHTS DR" county="WHATCOM"
+                            fips="53073" houseNum="6074" msaCode="13380" msaName="Bellingham, WA" cbsaCode="13380"
+                            cbsaName="Bellingham, WA" postDir="" preDir="" state="WA" streetName="PACIFIC HEIGHTS"
+                            suffix="DR" unitNum="" unitType="" zip="98248" zip4="8570" latitude="48860230"
+                            longitude="-122621351" censusBlock="530730105013000" cityStateZip="FERNDALE WA 98248"
+                            address="6074 PACIFIC HEIGHTS DR"/>
+            <CurrentLocation censusTract="530730105013000" county="WHATCOM" latitude="48860230" longitude="-122621351"/>
+            <Employment yearsOnTheJob="1.0" employmentType="W2">
+                <Employer employerName="YRC Freight" phone="4253486073" years="1">
+                    <Address carrierRoute="C032" city="EVERETT" streetAddr="9501 24TH PL W" county="SNOHOMISH"
+                             fips="53061" houseNum="9501" msaCode="42644" msaName="Seattle-Bellevue-Everett, WA"
+                             cbsaCode="42660" cbsaName="Seattle-Tacoma-Bellevue, WA" postDir="W" preDir="" state="WA"
+                             streetName="24TH" suffix="PL" unitNum="" unitType="" zip="98204" zip4="1441"
+                             latitude="47911245" longitude="-122266329" censusBlock="530610419032007"
+                             cityStateZip="EVERETT WA 98204" address="9501 24TH PL W"/>
+                    <Firmographics yearsInBusiness="0"/>
+                    <Location censusTract="530610419032007" county="SNOHOMISH" latitude="47911245"
+                              longitude="-122266329"/>
+                </Employer>
+                <Income base="3747.26" overtime="0.0" commission="0.0" bonus="0.0" other="0.0" total="3747.26"
+                        period="MONTHLY"/>
+                <Occupation jobTitle="Commercial Truck Driver/Dock Worker" yearsExperience="0"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds="509444,,401867"/>
+        <Broker>
+            <Address carrierRoute="" city="" county="" houseNum="" msaCode="" msaName="" cbsaCode="" cbsaName=""
+                     postDir="" preDir="" state="OR" streetName="" suffix="" unitNum="" unitType="" zip4="0"
+                     censusBlock="" cityStateZip="OR" address=""/>
+        </Broker>
+        <Appraiser appraiserCode="" phone="" license="CR00400" licenseState="" companyName="First Choice"
+                   firstName="Alan" middleName="E" lastName="Robinson"/>
+        <OtherLoanActor role="EscrowOfficer" companyName="Ticor Title" companyAddress="300 West Anderson"
+                        companyCity="Coos Bay" companyState="OR" companyZip="97420" firstName="Vicki"
+                        lastName="Rossback"/>
+        <OtherLoanActor role="TitleAgent" companyName="Ticor Title" companyAddress="300 West Anderson"
+                        companyCity="Coos Bay" companyState="97420" firstName="Coos" middleName="Bay" lastName="Title"/>
+        <OtherLoanActor role="Underwriter" companyName="Umpqua Bank" companyAddress="6610 SW Cardinal Ln"
+                        companyCity="Tigard" companyState="OR" companyZip="97224" firstName="Candice"
+                        lastName="Killinger"/>
+        <OtherLoanActor role="HazardInsurance" companyName="Progressive" firstName="Progressive"/>
+        <OtherLoanActor role="CreditCompany" companyName="CoreLogic Credco" companyAddress="P.O. BOX 509124"
+                        companyCity="SAN DIEGO" companyState="CA" companyZip="92150" firstName="CoreLogic Credco"/>
+        <OtherLoanActor role="DocPreparedBy" companyName="Umpqua Bank" companyAddress="6610 SW Cardinal Ln"
+                        companyCity="Tigard" companyState="OR" companyZip="97224" firstName="Umpqua Bank"/>
+        <OtherLoanActor role="Settlement Agent" companyName="Ticor Title" companyAddress="300 West Anderson"
+                        companyCity="Coos Bay" companyState="OR" companyZip="97420" firstName="Vicki"
+                        lastName="Rossback"/>
+        <Originator role="Originator" code="" nmlsID="509444" phone="">
+            <name firstName="Tammy" middleName="Lee" lastName="Morgan"/>
+            <address city="" state=""/>
+            <company companyName="Umpqua Bank" companyNmlsId="401867">
+                <Address city="Medford" streetAddr="1211 E McAndrews Rd" state="OR" zip="97504"/>
+            </company>
+        </Originator>
+        <Originator role="Lender">
+            <name firstName="Tammy" middleName="Lee" lastName="Morgan"/>
+            <address city="" state=""/>
+            <company companyName="Umpqua Bank" companyNmlsId="401867">
+                <Address city="Medford" streetAddr="1211 E McAndrews Rd" state="OR" zip="97504"/>
+            </company>
+        </Originator>
+        <Originator role="Loan Officer">
+            <name firstName="Tammy" middleName="Lee" lastName="Morgan"/>
+            <address city="" state=""/>
+        </Originator>
+        <Lender customerName="Umpqua Bank" customerNumber="1517A"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="N"/>
+        <InputParameter inputName="ACTIVATE_AP_LIC_SEARCH_ON" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH_BY_MAIL" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_SERVICER_ID_CHECK" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SHOW_INACTIVE" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="ALLOW_MICKEYMOUSE_SSN" inputValue="N"/>
+        <InputParameter inputName="AVMSELECT_BILLINGMODE" inputValue="TEST"/>
+        <InputParameter inputName="BROKER_LOOKUP" inputValue="N"/>
+        <InputParameter inputName="BROKER_LOOKUP_OUTPUT" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLIENPOSITION" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLOANSTATUS" inputValue="N"/>
+        <InputParameter inputName="BUSSEARCH_RECORD_CNT" inputValue="25"/>
+        <InputParameter inputName="BYPASS_AVMSELECT_CACHE" inputValue="Y"/>
+        <InputParameter inputName="BYPASS_RIPT_CACHE" inputValue="Y"/>
+        <InputParameter inputName="CACHE_EXPIRATION_OVERRIDE" inputValue="0"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="CFD" inputValue="N"/>
+        <InputParameter inputName="CUROWN_SUBJ_DIFF_FILTER" inputValue="Y"/>
+        <InputParameter inputName="CUROWN_SUBJ_DIFF_PCT" inputValue="5"/>
+        <InputParameter inputName="CUSTOM_BRAND" inputValue=""/>
+        <InputParameter inputName="DISASTER_LOOKBACK" inputValue="12"/>
+        <InputParameter inputName="DISPLAY_MLS_DATA" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_OTHER_IDENTITIES_FAQ" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_PORTAL_LINK" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_REASON_CODES" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_SUBJECT_FAQ" inputValue="Y"/>
+        <InputParameter inputName="EXCLUDE_WATCHLIST" inputValue="EPLS,HUD,FHFA,FHLMC"/>
+        <InputParameter inputName="EXCLUDE_WATCHLIST_ROLES" inputValue="Originator"/>
+        <InputParameter inputName="FAIL_WHEN_NO_PROP_DETAIL" inputValue="Y"/>
+        <InputParameter inputName="FHLMC_SERVICER_ID" inputValue="165000"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="FNMA_STARTS_WITH_MIN_LENGTH" inputValue="20"/>
+        <InputParameter inputName="FRAUD_MODEL_DW_CAT" inputValue="RIPT-LSFM.FRAUDMARK-3.0"/>
+        <InputParameter inputName="FRAUD_MODEL_ENGINE" inputValue="Y"/>
+        <InputParameter inputName="FRAUD_MODEL_LOGXML" inputValue="N"/>
+        <InputParameter inputName="FRAUD_MODEL_VERSION" inputValue="3.0"/>
+        <InputParameter inputName="HIDE_FM_STATS_DISTRIBUTION" inputValue="Y"/>
+        <InputParameter inputName="IDPRO_BWR_LOOKUP_VENDOR_PREF" inputValue="TARGUS,TELEMATCH"/>
+        <InputParameter inputName="IDPRO_EMP_LOOKUP_VENDOR_PREF" inputValue="TELEMATCH,TARGUS"/>
+        <InputParameter inputName="IDPRO_MOCK_TEST_CASE" inputValue=""/>
+        <InputParameter inputName="IDPRO_VENDOR_PREF" inputValue="AIBR-V1.6,AIBS-V1.6"/>
+        <InputParameter inputName="IDPRO_VENDOR_PREF_DEFAULT" inputValue="AIBR-V1.6,AIBS-V1.6"/>
+        <InputParameter inputName="LEGACY_WL_INPUT" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_CUST_ON" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_GOV_LIST" inputValue="EPLS,HUD,FHFA,FHLMC"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_COREMLS" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_NMLS" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_UDP_CUST_DA" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_UDP_CUST_SA" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_UDP_IND_DA" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_AE_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AE_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AE_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AE_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AE_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BWR_OFAC_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_CUST_ON" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_GOV_LIST" inputValue="EPLS,HUD,FHFA,FHLMC"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_LO_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_LO_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_LO_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_LO_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_LO_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_MERS_PRIMARY_SSN_ONLY" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_NMLS_FILTER_BY_STATES" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OLA_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OLA_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OLA_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OLA_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OLA_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OPR_OFAC_WANTED" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_CUST_ON" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_GOV_LIST" inputValue="HUD,EPLS,FHFA,FHLMC"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_SALARY_VENDOR_PREF" inputValue="PAYSCALE,ERI,BLS"/>
+        <InputParameter inputName="LNSFFM_SHOW_ADDITIONAL_UDP" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_SHOW_SEARCH_SUMMARY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_UDP_LOOKBACK_DAYS" inputValue="120"/>
+        <InputParameter inputName="LNSFFM_UDP_PRIMARY_BORR_ONLY" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LNSF_RUN_INCOME_SALARY_VEND" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="12"/>
+        <InputParameter inputName="LN_LANDJ_RETURN_COUNT" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="MAXCLOSESTLOANCOUNT" inputValue="20"/>
+        <InputParameter inputName="MAXDISTANCEINMILES" inputValue="6"/>
+        <InputParameter inputName="MAX_BANKRUPTCY_LOOKBACK" inputValue="10"/>
+        <InputParameter inputName="MERS_LOOKBACK_DAYS" inputValue="120"/>
+        <InputParameter inputName="MERS_MOCK_TEST_CASE" inputValue=""/>
+        <InputParameter inputName="MERS_REQUESTER_NAME" inputValue="Umpqua Bank"/>
+        <InputParameter inputName="MERS_REQUESTER_ORG_ID" inputValue="1000458"/>
+        <InputParameter inputName="MERS_SUBMITTER_NAME" inputValue="CoreLogic"/>
+        <InputParameter inputName="MERS_SUBMITTER_ORG_ID" inputValue="1007427"/>
+        <InputParameter inputName="MERS_VENDOR_CD" inputValue="MERS"/>
+        <InputParameter inputName="MINCLOSESTLOANCOUNT" inputValue="20"/>
+        <InputParameter inputName="MLS_ON_CURRENTLY_OWNED" inputValue="Y"/>
+        <InputParameter inputName="MOCK_MERS" inputValue="false"/>
+        <InputParameter inputName="MOCK_WATCHLIST" inputValue="N"/>
+        <InputParameter inputName="MRB_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="MRB_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="NOD_LOOKBACK" inputValue="12"/>
+        <InputParameter inputName="OFAC_FL_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="PASS_LNSF_WHEN_MERS_FAILS" inputValue="Y"/>
+        <InputParameter inputName="PREVIOUS_OWNED_LOOKBACK" inputValue="6"/>
+        <InputParameter inputName="PULL_LSC_ALERT_SUMMARY" inputValue="Y"/>
+        <InputParameter inputName="REISSUE_COMPARE" inputValue="Y"/>
+        <InputParameter inputName="REO_COMPARE" inputValue="Y"/>
+        <InputParameter inputName="REPORT_CONFIG" inputValue=""/>
+        <InputParameter inputName="RESCORE" inputValue="N"/>
+        <InputParameter inputName="RUN_COLLATERAL_MODEL_ONLY" inputValue="N"/>
+        <InputParameter inputName="RUN_NEG_AM" inputValue="N"/>
+        <InputParameter inputName="SARA_LOAN_PURPOSE" inputValue=""/>
+        <InputParameter inputName="SCREEN_SARA" inputValue=""/>
+        <InputParameter inputName="SHORT_SALE_DISPLAY" inputValue="Y"/>
+        <InputParameter inputName="SHORT_SALE_LOOKBACK" inputValue="7"/>
+        <InputParameter inputName="USER_INPUT_ADDRESS" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_CITY" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_STATE" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_ZIP" inputValue=""/>
+        <InputParameter inputName="USER_LIEN_CD" inputValue=""/>
+        <InputParameter inputName="USER_LIEN_DESC" inputValue=""/>
+        <InputParameter inputName="USE_EXTERNAL_WL_SVC" inputValue="Y"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+        <InputParameter inputName="WL_DISABLE_FUZZY_MATCH" inputValue="N"/>
+        <InputParameter inputName="WL_DISABLE_NICKNAME_MATCH" inputValue="N"/>
+        <InputParameter inputName="WL_FL_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="WL_NON_OFAC_LNAME_MATCH_REQ" inputValue="Y"/>
+    </ProfileInputs>
+</Request>

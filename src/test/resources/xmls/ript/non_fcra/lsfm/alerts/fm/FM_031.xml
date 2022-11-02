@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <Reissue userId="ADMN000027" runType="SUBMIT" masterID="MIf930ba24ef9048ad95a0102ba78bccec"
+                 channelID="CoreBatch"/>
+        <LoanAttributes estimatedValue="330000" firstTimeHomeBuyer="true" loanAmount="268620"
+                        loanNumber="LSFM-TC-QA-FM031" loanPurpose="Refinance" refiPurpose="CashOutOther" userCltv="0.0"
+                        userDocTypeDesc="FullDoc" userDti="0.0" userLtv="80.0" userOccupancyTypeDesc="PrimaryResidence"
+                        userPropertyType="SingleFamilyResidential" channelCode="HomeEquity"/>
+        <SubjectProperty>
+            <Address carrierRoute="" city="Victorville" streetAddr="14432 HONEYHILL ST" county="SAN BERNARDINO"
+                     fips="6071" houseNum="14432" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="" preDir=""
+                     state="CA" streetName="Honeyhill" suffix="St" unitNum="" unitType="" zip="92394" zip4="7587"
+                     latitude="34525610" longitude="-117349623" censusBlock="06-071-009110-1-01-2"
+                     cityStateZip="Victorville CA 92394" address="14432 Honeyhill St"
+                     inputStreetAddr="14432 HONEYHILL ST" inputCity="" inputState="" inputZip="92394"/>
+            <Location censusTract="06-071-009110-1-01-2" county="SAN BERNARDINO" latitude="34525610"
+                      longitude="-117349623"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="MTY0MTQ5MjYxNjI2NA==TvvmcbBCmTudRFRRNmkDwA==" firstName="Daniel"
+                  lastName="Ramirez" ssnEncryptedOneWay="">
+            <CurrentAddress carrierRoute="C036" city="VICTORVILLE" streetAddr="14432 HONEYHILL ST"
+                            county="SAN BERNARDINO" fips="6071" houseNum="14432" msaCode="40140"
+                            msaName="Riverside-San Bernardino-Ontario, CA" cbsaCode="40140"
+                            cbsaName="Riverside-San Bernardino-Ontario, CA" postDir="" preDir="" state="CA"
+                            streetName="HONEYHILL" suffix="ST" unitNum="" unitType="" zip="92394" zip4="7587"
+                            latitude="34525610" longitude="-117349623" censusBlock="060710091101012"
+                            cityStateZip="VICTORVILLE CA 92394" address="14432 HONEYHILL ST"/>
+            <OtherOwnedAddresses>
+                <InputAddress city="VICTORVILLE" streetAddr="14432 Honeyhill St" state="CA" zip="92394"/>
+            </OtherOwnedAddresses>
+            <CurrentLocation censusTract="060710091101012" county="SAN BERNARDINO" latitude="34525610"
+                             longitude="-117349623"/>
+            <Employment yearsOnTheJob="4.0" employmentType="SELF">
+                <Employer employerName="Daniel's Insurance Agency" phone="" years="4">
+                    <Address carrierRoute="C036" city="VICTORVILLE" streetAddr="14432 HONEYHILL ST"
+                             county="SAN BERNARDINO" fips="6071" houseNum="14432" msaCode="40140"
+                             msaName="Riverside-San Bernardino-Ontario, CA" cbsaCode="40140"
+                             cbsaName="Riverside-San Bernardino-Ontario, CA" postDir="" preDir="" state="CA"
+                             streetName="HONEYHILL" suffix="ST" unitNum="" unitType="" zip="92394" zip4="7587"
+                             latitude="34525610" longitude="-117349623" censusBlock="060710091101012"
+                             cityStateZip="VICTORVILLE CA 92394" address="14432 HONEYHILL ST"/>
+                    <Firmographics yearsInBusiness="5"/>
+                    <Location censusTract="060710091101012" county="SAN BERNARDINO" latitude="34525610"
+                              longitude="-117349623"/>
+                </Employer>
+                <Income base="4261.0" period="MONTHLY"/>
+                <Occupation jobTitle="Owner" yearsExperience="5"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerName="" brokerCode="29459" brokerDesc="R  S ALI ASSOCIATES|INC" phone="">
+            <Address carrierRoute="" city="IRVINE" county="" houseNum="" msaCode="" msaName="" cbsaCode="" cbsaName=""
+                     postDir="" preDir="" state="CA" streetName="" suffix="" unitNum="" unitType="" zip="92620" zip4="0"
+                     censusBlock="" cityStateZip="IRVINE CA 92620" address=""/>
+        </Broker>
+
+        <Lender customerName="CL HOUSE ACCOUNT" customerNumber="9303884"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+</Request>

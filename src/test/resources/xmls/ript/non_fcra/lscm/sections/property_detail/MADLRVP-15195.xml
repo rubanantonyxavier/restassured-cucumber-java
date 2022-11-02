@@ -1,0 +1,45 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <CollateralManagerRequest loanAmt="1000.0" estimatedValue="150000.0" saleAmt="150000.0"
+                              loanNum="JuGr1X{{$randomInt}}" loanPurpose="REFINANCE" customerNum=""
+                              searchDate="2020-10-09-07:00" retro="false" displayEquityRefi="true" alertServiceId="">
+        <Subject carrierRoute="" city="Mather" streetAddr="4294 STROMFORD WAY" county="SACRAMENTO" fips="6067"
+                 houseNum="4294" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="CA"
+                 streetName="Stromford" suffix="Way" unitNum="" unitType="" zip="95655" zip4="3002"
+                 cityStateZip="Mather CA 95655" address="4294 Stromford Way" inputStreetAddr="4294 STROMFORD WAY"
+                 inputCity="" inputState="" inputZip="92225"/>
+        <SubjectLocation censusTract="060670054031006" latitude="38547458" longitude="-121284258" geoAccuracy=""
+                         county="SACRAMENTO"/>
+    </CollateralManagerRequest>
+    <ProfileInputs>
+        <InputParameter inputName="REPORT_KEY" inputValue="LSCM3"/>
+        <InputParameter inputName="CITY" inputValue="Mather"/>
+        <InputParameter inputName="CARRIER_ROUTE" inputValue="C076"/>
+        <InputParameter inputName="BORROWER_USER_PURPOSE_DESC" inputValue="Refinance"/>
+        <InputParameter inputName="GEO_ACCURACY" inputValue="S"/>
+        <InputParameter inputName="COUNTYFIPS" inputValue="06067"/>
+        <InputParameter inputName="LATITUDE" inputValue="38547458"/>
+        <InputParameter inputName="LONGITUDE" inputValue="-121284258"/>
+        <InputParameter inputName="MSA_NAME" inputValue="Sacramento-Arden-Arcade-Roseville, CA"/>
+        <InputParameter inputName="CSA_NAME" inputValue="Sacramento-Arden-Arcade-Truckee, CA-NV"/>
+        <InputParameter inputName="MSA_CODE" inputValue="40900"/>
+        <InputParameter inputName="CSA_CODE" inputValue="472"/>
+        <InputParameter inputName="CBSA_NAME" inputValue="Sacramento-Arden-Arcade-Roseville, CA"/>
+        <InputParameter inputName="REFI_EQ_FLAG" inputValue="true"/>
+        <InputParameter inputName="CBSA_CODE" inputValue="40900"/>
+        <InputParameter inputName="SUFFIX" inputValue="PL"/>
+        <InputParameter inputName="RENDERTYPE" inputValue="XML_INPUT"/>
+        <InputParameter inputName="ADDRESS1" inputValue="4294 STROMFORD WAY"/>
+        <InputParameter inputName="CENSUS_BLOCK" inputValue="060670054031006"/>
+        <InputParameter inputName="BORROWER_LOANNUMBER" inputValue="JG01001009201"/>
+        <InputParameter inputName="ADDRESS" inputValue="4294 STROMFORD WAY"/>
+        <InputParameter inputName="STATE" inputValue="CA"/>
+        <InputParameter inputName="ADDRESSES" inputValue="4294 STROMFORD WAY|9565"/>
+        <InputParameter inputName="ZIP4" inputValue="3002"/>
+        <InputParameter inputName="USER_LOAN_AMOUNT" inputValue="1000"/>
+        <InputParameter inputName="ZIP" inputValue="9565"/>
+        <InputParameter inputName="REPORT_SERVER" inputValue="PCF_RIPT: dev_0"/>
+        <InputParameter inputName="STREET" inputValue="STROMFORD"/>
+        <InputParameter inputName="HOUSE" inputValue="4294"/>
+    </ProfileInputs>
+</Request>

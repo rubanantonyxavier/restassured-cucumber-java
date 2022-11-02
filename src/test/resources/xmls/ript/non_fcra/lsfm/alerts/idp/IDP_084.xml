@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <LoanAttributes estimatedValue="250000" firstTimeHomeBuyer="true" loanAmount="200000" loanNumber="JTEST-IDP084"
+                        loanPurpose="equity refinance" refiPurpose="cash out" userCltv="75" userDocTypeDesc="Full"
+                        userDti="45" userLtv="75" userOccupancyTypeDesc="PrimaryResidence" userPropertyType="SFR"
+                        channelCode="RETAIL" userLienCode="First" userLoanProdDesc=""
+                        mortgageTerm="FIXED - FX30 30YR-CONFORMING" mortgageRate="5.5"
+                        clientDiscretionaryField="ConformingLoan"/>
+        <SubjectProperty>
+            <Address streetAddr="4338 NORWALK CIR" zip="95655"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay="MTY0NjE4MDU0MjQ2OQ==ZNcE2LJWd71lp4JQw8cNoA=="
+                  firstName="James" middleName="" lastName="IVANMILLE" suffix="" phone="" dob="1967-11-09-08:00">
+            <CurrentAddress streetAddr="31408 PETERER AVE APT 101" city="LAFFWOOD" state="MI" zip="7222"/>
+        </Borrower>
+        <Lender customerNumber="02A"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+</Request>

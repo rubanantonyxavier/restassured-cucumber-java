@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <Reissue userId="JUHCORR45@TEST2.COM" runType="SUBMIT" masterID="MI79de7233ad854601ae78d0f79efc3e05"
+                 channelID="C2D"/>
+        <LoanAttributes estimatedValue="1342343" firstTimeHomeBuyer="false" loanAmount="34324"
+                        loanNumber="LN_LSFM_CU_hktnnxrx5yd" loanPurpose="HomeEquity"
+                        refiPurpose="NoCashOutStreamlinedRefinance" userCltv="86.0" userDocTypeDesc="FULL"
+                        userLtv="65.0" userOccupancyTypeDesc="SecondHome" channelCode=" " userLienCode="First"
+                        userLoanProdDesc="FHA" userAppDate="2009-02-03"/>
+        <SubjectProperty>
+            <Address carrierRoute="C020" city="CARLSBAD" streetAddr="3125 VIA PUERTA" county="SAN DIEGO" fips="6073"
+                     houseNum="3125" msaCode="41740" msaName="San Diego-Carlsbad-San Marcos, CA" cbsaCode="41740"
+                     cbsaName="San Diego-Carlsbad-San Marcos, CA" postDir="" preDir="" state="CA"
+                     streetName="VIA PUERTA" suffix="" unitNum="" unitType="" zip="92009" zip4="6081"
+                     latitude="33120859" longitude="-117233475" censusBlock="060730200132000"
+                     cityStateZip="CARLSBAD CA 92009" address="3125 VIA PUERTA" inputStreetAddr="3125 VIA PUERTA"
+                     inputCity="" inputState="" inputZip="92009"/>
+            <Location censusTract="060730200132000" county="SAN DIEGO" latitude="33120859" longitude="-117233475"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" creditScore="685" dob="1971-11-29" phone="5556965200"
+                  ssnEncryptedOneWay="5ebd2868764fcba72feffeeee29cdbaf"
+                  ssnEncryptedTwoWay="MTYyMTQzMzI3MTk1MQ==jDHae4i24QHs4b8UXweHDQ==" firstName="MARK"
+                  lastName="MARSUPIAL" suffix="">
+            <CurrentAddress carrierRoute="" city="SOMECITY" streetAddr="123 MAIN ST" county="" houseNum="123" msaCode=""
+                            msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="so" streetName="MAIN"
+                            suffix="ST" unitNum="" unitType="" zip="somezip" zip4="0" latitude="0" longitude="0"
+                            censusBlock="" cityStateZip="SOMECITY so somezip" address="123 MAIN ST"/>
+            <CurrentLocation latitude="0" longitude="0"/>
+            <Employment yearsOnTheJob="8.0" employmentType="W2">
+                <Employer employerName="NORTHSIDE HOSPITAL" phone="" years="8">
+                    <Address carrierRoute="" city="ATLANTA" streetAddr="JOHNSON FERRY" county="FULTON" fips="13121"
+                             houseNum="" msaCode="12060" msaName="Atlanta-Sandy Springs-Marietta, GA" cbsaCode="12060"
+                             cbsaName="Atlanta-Sandy Springs-Marietta, GA" postDir="" preDir="" state="GA"
+                             streetName="JOHNSON" suffix="FRY" unitNum="" unitType="" zip="30342" zip4="0"
+                             latitude="33884900" longitude="-84372100" censusBlock="13121010114"
+                             cityStateZip="ATLANTA GA 30342" address="JOHNSON FRY"/>
+                    <Firmographics yearsInBusiness="8"/>
+                    <Location censusTract="13121010114" county="FULTON" latitude="33884900" longitude="-84372100"/>
+                </Employer>
+                <Income base="4500.0" period="MONTHLY"/>
+                <Occupation yearsExperience="8"/>
+            </Employment>
+        </Borrower>
+        <Borrower brwrNum="1" dob="1971-11-29" phone="" ssnEncryptedOneWay="2553cf6332069d30e5781b3856a6eecd"
+                  ssnEncryptedTwoWay="MTYyMTQzMzI3MTk1MQ==3J2aOyqjOV2IiDpnSvBsNw==" firstName="Martin"
+                  lastName="Marsupial" suffix="">
+            <CurrentAddress carrierRoute="" city="SOMECITY" streetAddr="123 MAIN ST" county="" houseNum="123" msaCode=""
+                            msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="so" streetName="MAIN"
+                            suffix="ST" unitNum="" unitType="" zip="somezip" zip4="0" latitude="0" longitude="0"
+                            censusBlock="" cityStateZip="SOMECITY so somezip" address="123 MAIN ST"/>
+            <CurrentLocation latitude="0" longitude="0"/>
+            <Employment employmentType="W2">
+                <Employer employerName="NORTHSIDE HOSPITAL" phone="">
+                    <Address carrierRoute="" city="ATLANTA" streetAddr="JOHNSON FERRY RD" county="FULTON" fips="13121"
+                             houseNum="" msaCode="12060" msaName="Atlanta-Sandy Springs-Marietta, GA" cbsaCode="12060"
+                             cbsaName="Atlanta-Sandy Springs-Marietta, GA" postDir="" preDir="" state="GA"
+                             streetName="JOHNSON FERRY" suffix="RD" unitNum="" unitType="" zip="30342" zip4="0"
+                             latitude="33884900" longitude="-84372100" censusBlock="13121010114"
+                             cityStateZip="ATLANTA GA 30342" address="JOHNSON FERRY RD"/>
+                    <Location censusTract="13121010114" county="FULTON" latitude="33884900" longitude="-84372100"/>
+                </Employer>
+                <Income base="4500.0" period="MONTHLY"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest/>
+        <Broker>
+            <Address carrierRoute="C001" city="LIVERMORE" streetAddr="167 S P ST STE C" county="ALAMEDA" fips="6001"
+                     houseNum="167" msaCode="36084" msaName="Oakland-Fremont-Hayward, CA" cbsaCode="41860"
+                     cbsaName="San Francisco-Oakland-Fremont, CA" postDir="" preDir="S" state="CA" streetName="P"
+                     suffix="ST" unitNum="C" unitType="STE" zip="94550" zip4="4372" latitude="37678846"
+                     longitude="-121776065" censusBlock="060014516021036" cityStateZip="LIVERMORE CA 94550"
+                     address="167 S P ST C"/>
+        </Broker>
+        <Lender customerName="Def1" customerNumber="0002A"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_AP_LIC_SEARCH_ON" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH_BY_MAIL" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_SERVICER_ID_CHECK" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SHOW_INACTIVE" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="ALLOW_MICKEYMOUSE_SSN" inputValue="N"/>
+        <InputParameter inputName="AVMSELECT_BILLINGMODE" inputValue="TEST"/>
+        <InputParameter inputName="BROKER_LOOKUP" inputValue="N"/>
+        <InputParameter inputName="BROKER_LOOKUP_OUTPUT" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLIENPOSITION" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLOANSTATUS" inputValue="N"/>
+        <InputParameter inputName="BUSSEARCH_RECORD_CNT" inputValue="25"/>
+        <InputParameter inputName="BYPASS_AVMSELECT_CACHE" inputValue="Y"/>
+        <InputParameter inputName="BYPASS_RIPT_CACHE" inputValue="Y"/>
+        <InputParameter inputName="CACHE_EXPIRATION_OVERRIDE" inputValue="0"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="SARA_LOAN_PURPOSE" inputValue=""/>
+        <InputParameter inputName="SCREEN_SARA" inputValue=""/>
+        <InputParameter inputName="SHORT_SALE_DISPLAY" inputValue="Y"/>
+        <InputParameter inputName="SHORT_SALE_LOOKBACK" inputValue="7"/>
+        <InputParameter inputName="USER_INPUT_ADDRESS" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_CITY" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_STATE" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_ZIP" inputValue=""/>
+        <InputParameter inputName="USER_LIEN_CD" inputValue=""/>
+        <InputParameter inputName="USER_LIEN_DESC" inputValue=""/>
+        <InputParameter inputName="USE_EXTERNAL_WL_SVC" inputValue="Y"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,8 @@
+urls:
+  lsfm: https://cis-uat-ript-lsfm.apps.uat.pcfusw1stg.solutions.corelogic.com
+  lsfmFcra: https://cis-uat-ript-fcra-lsfm.apps.uat.pcfusw1stg.solutions.corelogic.com
+  lsrm: https://cis-uat-ript-lsrm.apps.uat.pcfusw1stg.solutions.corelogic.com
+  lsrmFcra: https://cis-uat-ript-fcra-lsrm.apps.uat.pcfusw1stg.solutions.corelogic.com
+  lscm: https://cis-uat-ript-lscm.apps.uat.pcfusw1stg.solutions.corelogic.com
+  lscmFcra: https://cis-uat-ript-fcra-lscm.apps.uat.pcfusw1stg.solutions.corelogic.com
+  c2d: https://cis-uat-c2d-connect2data.apps.uat.pcfusw1stg.solutions.corelogic.com

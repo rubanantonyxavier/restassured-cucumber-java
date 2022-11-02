@@ -1,0 +1,40 @@
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <ReportOptions searchDate="2019-07-18-07:00"/>
+        <LoanAttributes estimatedValue="750000" firstTimeHomeBuyer="false" loanAmount="414000"
+                        loanNumber="JTEST-IDP006-12" userCltv="55.2" userDti="43.13081" userLtv="55.2"
+                        loanPurpose="Purchase" userDocTypeDesc="Full" userOccupancyTypeDesc="Primary Residence"
+                        userPropertyType="Single Family" channelCode="Correspondent" userLienCode="1"
+                        userLoanProdDesc="Fnma 15 Year Fixed" mortgageTerm="" mortgageRate=""
+                        clientDiscretionaryField="" userSaleAmount="0" userCloseDate="2015-12-06-08:00"/>
+        <SubjectProperty>
+            <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="MTY0Njg0OTQ0OTg2Mg==MKAozFpeB1u1hTUoast7sA==" firstName="ROWENA"
+                  middleName="" lastName="GOLDETTA" suffix="" phone="8178327521" dob="1965-12-29-08:00"
+                  creditScore="706" ssnEncryptedOneWay="">
+            <CurrentAddress streetAddr="1313 GLADE ROAD" city="COLLEYVILLE" state="TX" zip="76034"/>
+            <Employment employmentType="W2" yearsOnTheJob="3.0">
+                <Employer employerName="SHILOH MISSIONARY BAPTIST CHURCH" phone="6578788592">
+                    <Address streetAddr="2823 N Houstin Street" zip="76106" city="FORT WORTH" state="TX"/>
+                    <Firmographics sic="" naics=""/>
+                </Employer>
+                <Occupation jobTitle="Assistant" soc="" yearsExperience="10"/>
+                <Income period="MONTHLY" base="4420.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                        total="0.0"/>
+            </Employment>
+        </Borrower>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+</Request>

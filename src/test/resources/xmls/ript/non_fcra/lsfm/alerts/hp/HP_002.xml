@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <Reissue userId="LUCC000006" runType="SUBMIT" masterID="MIdb2dddcc14024b60a8b39db3b5d506e0" channelID="CoreBatch"/>
+        <LoanAttributes estimatedValue="1200000" firstTimeHomeBuyer="false" loanAmount="364000" loanNumber="HP002" loanPurpose="CashOutRefinance" refiPurpose="Other" userCltv="30.0" userDocTypeDesc="LimitedDoc" userLtv="30.0" userPropertyType="SingleFamilyResidential" channelCode="HomeEquity"/>
+        <SubjectProperty>
+            <Address carrierRoute="" city="Moreno Valley" streetAddr="24290 EUCALYPTUS AVE" county="RIVERSIDE" fips="6065" houseNum="24290" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="CA" streetName="Eucalyptus" suffix="Ave" unitNum="" unitType="" zip="92553" zip4="3177" latitude="33931937" longitude="-117238930" censusBlock="06-065-042515-2-00-0" cityStateZip="Moreno Valley CA 92553" address="24290 Eucalyptus Ave" inputStreetAddr="24290 EUCALYPTUS AVE" inputCity="" inputState="" inputZip="92553"/>
+            <Location censusTract="06-065-042515-2-00-0" county="RIVERSIDE" latitude="33931937" longitude="-117238930"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" dob="1951-08-24" ssnEncryptedTwoWay="" firstName="Angelina" lastName="Castaneda" ssnEncryptedOneWay="">
+            <CurrentAddress carrierRoute="C052" city="POMONA" streetAddr="2 VIEWPOINT CIR" county="LOS ANGELES" fips="6037" houseNum="2" msaCode="31084" msaName="Los Angeles-Long Beach-Glendale, CA" cbsaCode="31080" cbsaName="" postDir="" preDir="" state="CA" streetName="VIEWPOINT" suffix="CIR" unitNum="" unitType="" zip="91766" zip4="4922" latitude="34035118" longitude="-117769472" censusBlock="060374033181002" cityStateZip="POMONA CA 91766" address="2 VIEWPOINT CIR"/>
+            <OtherOwnedAddresses>
+                <InputAddress city="24290 Eucalyptus Avenue" state="Moreno Valley" zip="CA"/>
+            </OtherOwnedAddresses>
+            <CurrentLocation censusTract="060374033181002" county="LOS ANGELES" latitude="34035118" longitude="-117769472"/>
+            <Employment yearsOnTheJob="22.0" employmentType="SELF">
+                <Employer employerName="Property Investor" phone="9097537534" years="22">
+                    <Address carrierRoute="C052" city="POMONA" streetAddr="2 VIEWPOINT CIR" county="LOS ANGELES" fips="6037" houseNum="2" msaCode="31084" msaName="Los Angeles-Long Beach-Glendale, CA" cbsaCode="31080" cbsaName="" postDir="" preDir="" state="CA" streetName="VIEWPOINT" suffix="CIR" unitNum="" unitType="" zip="91766" zip4="4922" latitude="34035118" longitude="-117769472" censusBlock="060374033181002" cityStateZip="POMONA CA 91766" address="2 VIEWPOINT CIR"/>
+                    <Firmographics yearsInBusiness="22"/>
+                    <Location censusTract="060374033181002" county="LOS ANGELES" latitude="34035118" longitude="-117769472"/>
+                </Employer>
+                <Income period="MONTHLY"/>
+                <Occupation jobTitle="Property Investor" yearsExperience="22"/>
+            </Employment>
+        </Borrower>
+        <Lender customerName="CL HOUSE ACCOUNT" customerNumber="9303884"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="RESCORE" inputValue="N"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="Fraud_AllAlerts"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="N"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,42 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding="" sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+<LSFMRequest>
+<FraudOptions>
+<UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+</FraudOptions>
+<LoanAttributes estimatedValue="150000" firstTimeHomeBuyer="true" loanAmount="999999" loanNumber="LSFM-TC-QA-INC006" userCltv="100.0" userDti="78.0" userLtv="100.0" loanPurpose="REFI" userDocTypeDesc="" userOccupancyTypeDesc="PRIMARYRESIDENCE" userPropertyType="" userLoanTypeDesc="" channelCode="" userLienCode="" userLoanProdDesc="" mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="0" userCloseDate="2022-01-03-08:00"/>
+<SubjectProperty>
+<Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+</SubjectProperty>
+<Borrower brwrNum="0" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6" ssnEncryptedTwoWay="MTY0MTI0NDIwNTkwOA==60e8auoV/ueSsIhSqFLuzQ==" firstName="Kelly" middleName="" lastName="Ardmille" suffix="" phone="" dob="2010-01-01-08:00">
+<CurrentAddress carrierRoute="C050" city="DENVER" streetAddr="985 S LOGAN ST" county="DENVER" fips="8031" houseNum="985" msaCode="19740" msaName="Denver-Aurora, CO" cbsaCode="19740" cbsaName="Denver-Aurora, CO" postDir="" preDir="S" state="CO" streetName="LOGAN" suffix="ST" unitNum="" unitType="" zip="80209" zip4="4129" latitude="39698650" longitude="-104982959" censusBlock="080310029013020" cityStateZip="DENVER CO 80209" address="985 S LOGAN ST" /> 
+  <CurrentLocation censusTract="080310029013020" county="DENVER" latitude="39698650" longitude="-104982959" /> 
+     <Employment employmentType="SELF">
+       <Employer employerName="Happy Dayz Collective" phone="">
+         <Address streetAddr="1800 E Scary Ave Ste 110" zip="92581" city="Santa Ana" state="CA"/>
+<Location/>
+</Employer>
+<Income base="6833.0" period="MONTHLY"/>
+</Employment>
+  </Borrower>
+<NMLSSearchRequest nmlsIds=""/>
+<Broker brokerCode="" brokerId="" taxId="">
+<Address streetAddr="" city="" state="" zip=""/>
+</Broker>
+<Lender customerNumber=""/>
+</LSFMRequest>
+<ProfileInputs>
+<InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS" /> 
+  <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N" />   
+  <InputParameter inputName="FM_MODEL" inputValue="4.1" />  
+  <InputParameter inputName="IDPRO_BWR_LOOKUP_VENDOR_PREF" inputValue="TARGUS,TELEMATCH" /> 
+  <InputParameter inputName="IDPRO_EMP_LOOKUP_VENDOR_PREF" inputValue="TELEMATCH,TARGUS" /> 
+  <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N" /> 
+  <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y" /> 
+  <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="Y"/>
+  <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+  <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N" /> 
+  <InputParameter inputName="MRB_SEARCH" inputValue="Y"/>
+  <InputParameter inputName="MRB_THRESHOLD" inputValue="0.96"/>
+
+</ProfileInputs>
+</Request>

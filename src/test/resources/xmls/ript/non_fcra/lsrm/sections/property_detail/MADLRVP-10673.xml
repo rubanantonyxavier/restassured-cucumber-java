@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSRMRequest>
+        <LSFMRequestInfo>
+            <LoanAttributes estimatedValue="755000" firstTimeHomeBuyer="false" loanAmount="555000"
+                            loanNumber="9749590841" userCltv="0.0" userDti="0.0" userLtv="73.51" loanPurpose="Purchase"
+                            userDocTypeDesc="FullDoc" userOccupancyTypeDesc="PrimaryResidence"
+                            userPropertyType="Condominium" channelCode="RETAIL" userLienCode="First"
+                            userLoanProdDesc="CF30" mortgageTerm="" mortgageRate="" clientDiscretionaryField=""
+                            userSaleAmount="0" userCloseDate="2022-01-03-08:00" userAppDate="2022-01-03-08:00"/>
+            <SubjectProperty>
+                <Address streetAddr="3820 SAINT CHARLES AVE UNIT 303" city="NEW ORLEANS" state="LA" zip="70115"
+                         fips="22071" apn="" inputStreetAddr="3820 ST CHARLES AVE, UNIT #303" inputCity="NEW ORLEANS"
+                         inputState="LA" inputZip="70115"/>
+            </SubjectProperty>
+            <Borrower brwrNum="0" ssnEncryptedOneWay=""
+                      ssnEncryptedTwoWay="" firstName="Kay" middleName=""
+                      lastName="Oplinger" suffix="" creditScore="778" phone="9122237228" dob="1959-04-10-08:00">
+                <CurrentAddress streetAddr="3000 Saint Charles Ave, Unit #215" city="NEW ORLEANS" state="LA"
+                                zip="70115"/>
+                <OtherOwnedAddresses dispositionStatus="Retained" propertyType="Condominium" currentResidence="false"
+                                     grossRentalIncome="0.0000">
+                    <InputAddress streetAddr="24280 Perdido Beach Blvd." city="ORANGE BEACH" state="AL" zip="36561"/>
+                </OtherOwnedAddresses>
+                <OtherOwnedAddresses dispositionStatus="Sold" propertyType="Condominium" currentResidence="true"
+                                     grossRentalIncome="0.0000">
+                    <InputAddress streetAddr="3000 Saint Charles Ave" city="NEW ORLEANS" state="LA" zip="70115"/>
+                </OtherOwnedAddresses>
+                <Employment employmentType="SELF" yearsOnTheJob="11.0">
+                    <Employer employerName="Integrated Healthcare Alliance" phone="5044103051">
+                        <Address streetAddr="3502 South Carrollton Ave" zip="70118" city="NEW ORLEANS" state="LA"/>
+                        <Firmographics abiNumber="         " grossSales="0.0" numEmployees="0" sic="802101"
+                                       sicDescription="DENTISTS"/>
+                    </Employer>
+                    <Occupation jobTitle="COO" soc="" yearsExperience="11.0"/>
+                    <Income period="MONTHLY" base="21899.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                            total="0.0"/>
+                </Employment>
+            </Borrower>
+            <Lender customerNumber="0002A"/>
+        </LSFMRequestInfo>
+    </LSRMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_AP_LIC_SEARCH_ON" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH_BY_MAIL" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_SERVICER_ID_CHECK" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SHOW_INACTIVE" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="ALLOW_MICKEYMOUSE_SSN" inputValue="N"/>
+        <InputParameter inputName="AVMSELECT_BILLINGMODE" inputValue="PROD"/>
+        <InputParameter inputName="BROKER_LOOKUP" inputValue="N"/>
+        <InputParameter inputName="BROKER_LOOKUP_OUTPUT" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLIENPOSITION" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLOANSTATUS" inputValue="N"/>
+        <InputParameter inputName="BUSSEARCH_RECORD_CNT" inputValue="25"/>
+        <InputParameter inputName="BYPASS_AVMSELECT_CACHE" inputValue="N"/>
+        <InputParameter inputName="BYPASS_RIPT_CACHE" inputValue="N"/>
+        <InputParameter inputName="CACHE_EXPIRATION_OVERRIDE" inputValue="0"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+    </ProfileInputs>
+</Request>

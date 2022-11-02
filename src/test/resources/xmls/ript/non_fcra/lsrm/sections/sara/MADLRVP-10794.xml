@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSRMRequest>
+        <LSFMRequestInfo>
+            <Reissue userId="Paulina.Smardz@rate.com" runType="SUBMIT" masterID="" channelID="C2D"/>
+            <LoanAttributes estimatedValue="300000" firstTimeHomeBuyer="false" loanAmount="2600077777" loanNumber="ALERT-SARA678-TBD" loanPurpose="NonCashOutRefinance" refiPurpose="ChangeInRateTerm" userCltv="86.667" userDocTypeDesc="FULL" userDti="24.269" userLtv="86.667" userOccupancyTypeDesc="PrimaryResidence" userPropertyType="Condominium" channelCode="Correspondent" userLoanProdDesc="Fannie Mae HomeReady 30 Yr Fixed" mortgageRate="3.875" userAppDate="2019-12-12"/>
+            <SubjectProperty>
+                <Address streetAddr="15534 JOHN DISKIN CIR" state="VA" zip="22191" address="15534 JOHN DISKIN CIR"/>
+            </SubjectProperty>
+            <Borrower brwrNum="0" dob="1994-12-28" ssnEncryptedTwoWay="" firstName="Peter" middleName="M" lastName="Weeks">
+            </Borrower>
+            <NMLSSearchRequest nmlsIds=""/>
+            <Broker>
+                <Address carrierRoute="" city="" county="" houseNum="" msaCode="" msaName="" cbsaCode="" cbsaName="" postDir="" preDir="" state="" streetName="" suffix="" unitNum="" unitType="" zip4="0" censusBlock="" cityStateZip="" address=""/>
+            </Broker>
+
+            <OtherLoanActor role="Escrow" companyName="Prime Title &amp; Escrow, LLC" firstName="Adam" lastName="Barenfeld-Engel"/>
+
+            <Lender customerName="CoreLogic Test" customerNumber="CLTEST"/>
+        </LSFMRequestInfo>
+    </LSRMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="Y"/>
+        <InputParameter inputValue="4.1" inputName="FM_MODEL"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <LoanAttributes estimatedValue="312000" firstTimeHomeBuyer="false" loanAmount="301080" loanNumber="HP"
+                        loanPurpose="Purchase" userSaleAmount="312000" userCltv="96.5" userDocTypeDesc="FULL"
+                        userDti="39.155" userLtv="96.5" userOccupancyTypeDesc="PrimaryResidence"
+                        userPropertyType="SingleFamilyResidential" channelCode="Retail" userLienCode="First"
+                        userLoanProdDesc="FHA" mortgageTerm="360" mortgageRate="4.125" userAppDate="2022-01-21"
+                        userLoanProdDescStd="FHA"/>
+        <SubjectProperty>
+            <Address carrierRoute="" city="GREENBRIER" streetAddr="14 WHISPERING WILLOW" county="FAULKNER" fips="5045"
+                     houseNum="14" msaCode="30780" msaName="Little Rock-North Little Rock, AR" cbsaCode="30780"
+                     cbsaName="Little Rock-North Little Rock, AR" postDir="" preDir="" state="AR"
+                     streetName="WHISPERING WILLOW" suffix="" unitNum="" unitType="" zip="72058" zip4="0"
+                     latitude="35239000" longitude="-92385900" censusBlock="05045030102" apn="740-00771-000"
+                     cityStateZip="GREENBRIER AR 72058" address="14 WHISPERING WILLOW"
+                     inputStreetAddr="14 WHISPERING WILLOW" inputCity="GREENBRIER" inputState="AR" inputZip="72058"/>
+            <Location censusTract="05045030102" county="FAULKNER" latitude="35239000" longitude="-92385900"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" dob="1978-05-17" phone="" ssnEncryptedOneWay="" ssnEncryptedTwoWay="" firstName="Gregory"
+                  middleName="" lastName="Burnett">
+            <CurrentAddress carrierRoute="R001" city="GREENBRIER" streetAddr="38 JOHNSON LOOP" county="FAULKNER"
+                            fips="5045" houseNum="38" msaCode="30780" msaName="Little Rock-North Little Rock, AR"
+                            cbsaCode="30780" cbsaName="Little Rock-North Little Rock, AR" postDir="" preDir=""
+                            state="AR" streetName="JOHNSON" suffix="LOOP" unitNum="" unitType="" zip="72058" zip4="9752"
+                            latitude="35261563" longitude="-92244052" censusBlock="050450302011007"
+                            cityStateZip="GREENBRIER AR 72058" address="38 JOHNSON LOOP"/>
+            <OtherOwnedAddresses dispositionStatus="Pending Sale" propertyType="Single Family" grossRentalIncome="0"
+                                 currentResidence="true">
+                <InputAddress city="Greenbrier" streetAddr="38 Johnson Loop" state="AR" zip="72058"/>
+            </OtherOwnedAddresses>
+            <CurrentLocation censusTract="050450302011007" county="FAULKNER" latitude="35261563" longitude="-92244052"/>
+            <Employment>
+                <Employer employerName="Transportation Communications Union" phone="3019484910">
+                    <Address carrierRoute="C008" city="NORTH LITTLE ROCK" streetAddr="201 W BROADWAY ST STE G"
+                             county="PULASKI" fips="5119" houseNum="201" msaCode="30780"
+                             msaName="Little Rock-North Little Rock, AR" cbsaCode="30780"
+                             cbsaName="Little Rock-North Little Rock, AR" postDir="" preDir="W" state="AR"
+                             streetName="BROADWAY" suffix="ST" unitNum="G" unitType="STE" zip="72114" zip4="5552"
+                             latitude="34756242" longitude="-92269133" censusBlock="051190025001108"
+                             cityStateZip="NORTH LITTLE ROCK AR 72114" address="201 W BROADWAY ST G"/>
+                    <Location censusTract="051190025001108" county="PULASKI" latitude="34756242" longitude="-92269133"/>
+                </Employer>
+                <Income base="11017.74" total="11017.74" period="MONTHLY"/>
+                <Occupation jobTitle="National Representative"/>
+            </Employment>
+        </Borrower>
+        <Appraiser appraiserCode="" phone="" license="CR2771" licenseState="AR"
+                   companyName="MFS, LLC fbo Valentin Appraisal, Inc" firstName="Paul" lastName="Valentin"/>
+        <OtherLoanActor role="Lender" companyName="Mortgage Financial Services, LLC"
+                        companyAddress="2001 Lakeside Parkway" companyCity="Flower Mound" companyState="TX"
+                        companyZip="75028"/>
+        <OtherLoanActor role="ECOA" companyName="Federal Trade Commission 6th" companyAddress="Pennsylvania Ave N.W."
+                        companyCity="Washington" companyState="DC" companyZip="20580"/>
+        <OtherLoanActor role="Mortgagee" companyName="Mortgage Financial Services LLC"
+                        companyAddress="2001 Lakeside Parkway" companyCity="Flower Mound" companyState="TX"
+                        companyZip="75028" firstName="ISAOA/ATIMA"/>
+        <OtherLoanActor role="Trustee" companyName="Shanks &amp; Associates, PC"
+                        companyAddress="15810 Park Ten Place, Suite 205" companyCity="Houston" companyState="TX"
+                        companyZip="77084" firstName="Brett" middleName="M" lastName="Shanks"/>
+        <OtherLoanActor role="Other" companyName="MFS, LLC fbo Escrows" firstName="MFS" middleName="LLC fbo"
+                        lastName="Escrows"/>
+        <OtherLoanActor role="CreditReport" companyName="MFS, LLC FBO Credit Plus" firstName="MFS"
+                        middleName="LLC FBO Credit" lastName="Plus"/>
+        <OtherLoanActor role="Title Company" companyName="Faulkner County Title" companyAddress="711 Locust"
+                        companyCity="Conway" companyState="AR" companyZip="72032" firstName="Kimberly"
+                        lastName="Bonds"/>
+        <OtherLoanActor role="SellingAgent" companyName="RE/MAX Elite Conway Branch" companyAddress="2450 N Donaghey"
+                        companyCity="Conway" companyState="AR" companyZip="72032" firstName="Laura" lastName="Dryer"/>
+        <OtherLoanActor role="BuyerAgent" companyName="Landry Greers Ferry Lake Realty LLC"
+                        companyAddress="106 Shadow Ridge Court" companyCity="Fairfield Bay" companyState="AR"
+                        companyZip="72088" firstName="Cynthia" lastName="Burnett"/>
+        <OtherLoanActor role="Property Seller" firstName="AJV" middleName="Properties" lastName="LLC"/>
+        <OtherLoanActor role="Loan Underwriter" companyName="Mortgage Financial Services, LLC"
+                        companyAddress="2001 Lakeside Parkway" companyCity="Flower Mound" companyState="TX"
+                        companyZip="75028" firstName="Lynesey" lastName="Serfass"/>
+        <OtherLoanActor role="Hazard Insurance Company" companyName="American Strategic"
+                        companyAddress="1602 Merrill Dr Suite A" companyCity="Little Rock" companyState="AR"
+                        companyZip="72211" firstName="A" middleName="+ Insurance Center" lastName="Inc"/>
+        <OtherLoanActor role="LoanOpener" companyName="Mortgage Financial Services, LLC"
+                        companyAddress="5201 Jerry Drive" companyCity="Little Rock" companyState="AR" companyZip="72223"
+                        firstName="Jennifer" middleName="Marie" lastName="Ballheimer"/>
+        <OtherLoanActor role="Loan Processor" companyName="Mortgage Financial Services, LLC"
+                        companyAddress="5201 Jerry Drive" companyCity="Little Rock" companyState="AR" companyZip="72223"
+                        firstName="Aricka" lastName="Williams"/>
+        <OtherLoanActor role="JuniorProcessor" companyName="Mortgage Financial Services, LLC"
+                        companyAddress="5201 Jerry Drive" companyCity="Little Rock" companyState="AR" companyZip="72223"
+                        firstName="Zack" lastName="Johnson"/>
+        <OtherLoanActor role="DisclosureDesk" companyName="Mortgage Financial Services, LLC"
+                        companyAddress="2001 Lakeside Parkway" companyCity="Flower Mound" companyState="TX"
+                        companyZip="75028" firstName="Tammy" lastName="Bond"/>
+        <OtherLoanActor role="Other" companyName="Clerk Circuit Court" companyState="AR"/>
+        <OtherLoanActor role="Other" companyName="MFS, LLC fbo CoreLogic Flood Services" firstName="MFS"
+                        middleName="LLC fbo CoreLogic Flood" lastName="Services"/>
+        <OtherLoanActor role="Other" companyName="MFS, LLC fbo HUD" companyAddress="10922 Coursey Blvd. Bldg. B"
+                        companyCity="Baton Rouge" companyState="LA" companyZip="70816" firstName="MFS"
+                        middleName="LLC fbo" lastName="HUD"/>
+        <OtherLoanActor role="Title Underwriter" companyName="Chicago Title Insurance Company" firstName="Chicago"
+                        middleName="Title Insurance" lastName="Company"/>
+        <OtherLoanActor role="Other" companyName="Simplifile" firstName="Simplifile"/>
+        <OtherLoanActor role="Other" companyName="County/Parish Recorder" firstName="County/Parish"
+                        lastName="Recorder"/>
+        <OtherLoanActor role="Other" companyName="Dept of Finance &amp;Adminstration" firstName="Dept"
+                        middleName="of Finance" lastName="&amp;Adminstration"/>
+        <OtherLoanActor role="JuniorUnderwriter" companyName="Mortgage Financial Services, LLC"
+                        companyAddress="2001 Lakeside Parkway" companyCity="Flower Mound" companyState="TX"
+                        companyZip="75028" firstName="Brittaney" lastName="Clouse"/>
+        <Originator role="Loan Officer Assistant" code="" nmlsID="" phone="">
+            <name firstName="Brandi" lastName="Murdock"/>
+            <address city="" state=""/>
+            <company companyName="Mortgage Financial Services, LLC" companyNmlsId="43021" companyPhone="">
+                <Address city="Little Rock" streetAddr="11524 Fairview Road" state="AR" zip="72212"/>
+            </company>
+        </Originator>
+        <Originator role="Manager" code="24063" nmlsID="143750" phone="">
+            <name firstName="Jennifer" middleName="Marie" lastName="Ballheimer"/>
+            <address city="" state=""/>
+            <company companyName="Mortgage Financial Services, LLC" companyNmlsId="43021" companyPhone="5018125626">
+                <Address city="Little Rock" streetAddr="5201 Jerry Drive" state="AR" zip="72223"/>
+            </company>
+        </Originator>
+        <Originator role="Loan Officer" code="24063" nmlsID="143750" phone="">
+            <name firstName="Jennifer" middleName="Marie" lastName="Ballheimer"/>
+            <address city="" state=""/>
+            <company companyName="Mortgage Financial Services, LLC" companyNmlsId="43021" companyPhone="">
+                <Address city="Little Rock" streetAddr="5201 Jerry Drive" state="AR" zip="72223"/>
+            </company>
+        </Originator>
+        <Lender customerName="Mortgage Financial Services" customerNumber="79798"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_AP_LIC_SEARCH_ON" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH_BY_MAIL" inputValue="Y"/>
+        <InputParameter inputName="ACTIVATE_SERVICER_ID_CHECK" inputValue="N"/>
+        <InputParameter inputName="ALERT_SHOW_INACTIVE" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="ALLOW_MICKEYMOUSE_SSN" inputValue="N"/>
+        <InputParameter inputName="AVMSELECT_BILLINGMODE" inputValue="TEST"/>
+        <InputParameter inputName="BROKER_LOOKUP" inputValue="N"/>
+        <InputParameter inputName="BROKER_LOOKUP_OUTPUT" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLIENPOSITION" inputValue="N"/>
+        <InputParameter inputName="BSCDISPLAYLOANSTATUS" inputValue="N"/>
+        <InputParameter inputName="BUSSEARCH_RECORD_CNT" inputValue="25"/>
+        <InputParameter inputName="BYPASS_AVMSELECT_CACHE" inputValue="Y"/>
+        <InputParameter inputName="BYPASS_RIPT_CACHE" inputValue="Y"/>
+        <InputParameter inputName="CACHE_EXPIRATION_OVERRIDE" inputValue="0"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="CFD" inputValue="N"/>
+        <InputParameter inputName="CUROWN_SUBJ_DIFF_FILTER" inputValue="Y"/>
+        <InputParameter inputName="CUROWN_SUBJ_DIFF_PCT" inputValue="5"/>
+        <InputParameter inputName="CUSTOM_BRAND" inputValue=""/>
+        <InputParameter inputName="DISASTER_LOOKBACK" inputValue="12"/>
+        <InputParameter inputName="DISPLAY_MLS_DATA" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_OTHER_IDENTITIES_FAQ" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_PORTAL_LINK" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_REASON_CODES" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_SUBJECT_FAQ" inputValue="Y"/>
+        <InputParameter inputName="EXCLUDE_WATCHLIST" inputValue=""/>
+        <InputParameter inputName="EXCLUDE_WATCHLIST_ROLES" inputValue=""/>
+        <InputParameter inputName="FAIL_WHEN_NO_PROP_DETAIL" inputValue="Y"/>
+        <InputParameter inputName="FHLMC_SERVICER_ID" inputValue=""/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="FNMA_STARTS_WITH_MIN_LENGTH" inputValue="20"/>
+        <InputParameter inputName="FRAUD_MODEL_DW_CAT" inputValue="RIPT-LSFM.FRAUDMARK-3.0"/>
+        <InputParameter inputName="FRAUD_MODEL_ENGINE" inputValue="Y"/>
+        <InputParameter inputName="FRAUD_MODEL_LOGXML" inputValue="N"/>
+        <InputParameter inputName="FRAUD_MODEL_VERSION" inputValue="3.0"/>
+        <InputParameter inputName="HIDE_FM_STATS_DISTRIBUTION" inputValue="Y"/>
+        <InputParameter inputName="IDPRO_BWR_LOOKUP_VENDOR_PREF" inputValue="TARGUS,TELEMATCH"/>
+        <InputParameter inputName="IDPRO_EMP_LOOKUP_VENDOR_PREF" inputValue="TELEMATCH,TARGUS"/>
+        <InputParameter inputName="IDPRO_MOCK_TEST_CASE" inputValue=""/>
+        <InputParameter inputName="IDPRO_VENDOR_PREF" inputValue="AIBR-V1.6,AIBS-V1.6"/>
+        <InputParameter inputName="IDPRO_VENDOR_PREF_DEFAULT" inputValue="AIBR-V1.6,AIBS-V1.6"/>
+        <InputParameter inputName="LEGACY_WL_INPUT" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_CUST_ON" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_GOV_LIST" inputValue="EPLS,HUD,FHFA"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_COREMLS" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_NMLS" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_UDP_CUST_DA" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_UDP_CUST_SA" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_UDP_IND_DA" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_AE_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AE_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AE_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AE_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AE_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AM_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_AP_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BR_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_BWR_OFAC_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_CUST_ON" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_GOV_LIST" inputValue="EPLS,HUD,FHFA"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_LO_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_LO_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_LO_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_LO_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_LO_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_MERS_PRIMARY_SSN_ONLY" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_NMLS_FILTER_BY_STATES" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OLA_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OLA_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OLA_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OLA_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OLA_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_OPR_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_CUST_ON" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_GOV_LIST" inputValue="HUD,EPLS,FHFA"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_CUST_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_GOV_LIST" inputValue=""/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_GOV_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_ON" inputValue=""/>
+        <InputParameter inputName="LNSFFM_ORIG_WL_SIMILARITY" inputValue=""/>
+        <InputParameter inputName="LNSFFM_SALARY_VENDOR_PREF" inputValue="PAYSCALE,ERI,BLS"/>
+        <InputParameter inputName="LNSFFM_SHOW_ADDITIONAL_UDP" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_SHOW_SEARCH_SUMMARY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_UDP_LOOKBACK_DAYS" inputValue="120"/>
+        <InputParameter inputName="LNSFFM_UDP_PRIMARY_BORR_ONLY" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LNSF_RUN_INCOME_SALARY_VEND" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="12"/>
+        <InputParameter inputName="LN_LANDJ_RETURN_COUNT" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="MAXCLOSESTLOANCOUNT" inputValue="20"/>
+        <InputParameter inputName="MAXDISTANCEINMILES" inputValue="6"/>
+        <InputParameter inputName="MAX_BANKRUPTCY_LOOKBACK" inputValue="10"/>
+        <InputParameter inputName="MERS_LOOKBACK_DAYS" inputValue="120"/>
+        <InputParameter inputName="MERS_MOCK_TEST_CASE" inputValue=""/>
+        <InputParameter inputName="MERS_REQUESTER_NAME" inputValue="cl test"/>
+        <InputParameter inputName="MERS_REQUESTER_ORG_ID" inputValue="1006109"/>
+        <InputParameter inputName="MERS_SUBMITTER_NAME" inputValue="CoreLogic"/>
+        <InputParameter inputName="MERS_SUBMITTER_ORG_ID" inputValue="1007427"/>
+        <InputParameter inputName="MERS_VENDOR_CD" inputValue="MERS"/>
+        <InputParameter inputName="MINCLOSESTLOANCOUNT" inputValue="20"/>
+        <InputParameter inputName="MLS_ON_CURRENTLY_OWNED" inputValue="Y"/>
+        <InputParameter inputName="MOCK_MERS" inputValue="false"/>
+        <InputParameter inputName="MOCK_WATCHLIST" inputValue="N"/>
+        <InputParameter inputName="MRB_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="MRB_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="NOD_LOOKBACK" inputValue="12"/>
+        <InputParameter inputName="OFAC_FL_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="PASS_LNSF_WHEN_MERS_FAILS" inputValue="N"/>
+        <InputParameter inputName="PREVIOUS_OWNED_LOOKBACK" inputValue="6"/>
+        <InputParameter inputName="PULL_LSC_ALERT_SUMMARY" inputValue="Y"/>
+        <InputParameter inputName="REISSUE_COMPARE" inputValue="Y"/>
+        <InputParameter inputName="REO_COMPARE" inputValue="N"/>
+        <InputParameter inputName="REPORT_CONFIG" inputValue=""/>
+        <InputParameter inputName="RESCORE" inputValue="N"/>
+        <InputParameter inputName="RUN_COLLATERAL_MODEL_ONLY" inputValue="N"/>
+        <InputParameter inputName="RUN_NEG_AM" inputValue="N"/>
+        <InputParameter inputName="SARA_LOAN_PURPOSE" inputValue=""/>
+        <InputParameter inputName="SCREEN_SARA" inputValue=""/>
+        <InputParameter inputName="SHORT_SALE_DISPLAY" inputValue="Y"/>
+        <InputParameter inputName="SHORT_SALE_LOOKBACK" inputValue="7"/>
+        <InputParameter inputName="USER_INPUT_ADDRESS" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_CITY" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_STATE" inputValue=""/>
+        <InputParameter inputName="USER_INPUT_ZIP" inputValue=""/>
+        <InputParameter inputName="USER_LIEN_CD" inputValue=""/>
+        <InputParameter inputName="USER_LIEN_DESC" inputValue=""/>
+        <InputParameter inputName="USE_EXTERNAL_WL_SVC" inputValue="Y"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+        <InputParameter inputName="WL_DISABLE_FUZZY_MATCH" inputValue="N"/>
+        <InputParameter inputName="WL_DISABLE_NICKNAME_MATCH" inputValue="N"/>
+        <InputParameter inputName="WL_FL_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="WL_NON_OFAC_LNAME_MATCH_REQ" inputValue="Y"/>
+    </ProfileInputs>
+</Request>

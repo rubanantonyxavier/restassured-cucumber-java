@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest runCollateralModel="true">
+        <LoanAttributes combLtv="60.0" creditScore="0" userDocTypeDesc="FULLDOC" estimatedValue="1550000"
+                        loanAmount="930000"
+                        userOccupancyTypeDesc="PrimaryResidence" loanNumber="JTEST-IDP073" loanPurpose="Purchase"/>
+        <SubjectProperty>
+            <Address streetAddr="16242 W WOODLANDS AVE" city="" state="" zip="85338"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="MTY0NjE4MDYyNTkyMg==XKNAsLRyENBYZoFv9fnyYQ==" firstName="JAMES"
+                  middleName="" lastName="CARRARZI" ssnEncryptedOneWay="8cbf1605001e337f29c900e246b2716d">
+            <Income period="MONTHLY" base="5000.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                    total="5000.0"/>
+            <OtherOwnedAddresses>
+                <InputAddress streetAddr="16242 16242 W WOODLANDS A" city="GOODYEAR" state="AZ" zip="85338"/>
+            </OtherOwnedAddresses>
+        </Borrower>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+        <InputParameter inputName="REO_COMPARE" inputValue="Y"/>
+    </ProfileInputs>
+</Request>

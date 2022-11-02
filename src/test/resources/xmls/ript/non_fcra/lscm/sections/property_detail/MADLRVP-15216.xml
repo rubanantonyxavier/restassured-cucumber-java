@@ -1,0 +1,10 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <CollateralManagerRequest activateCoreMLS="true" alertServiceId="FRAUD_ALLALERTS" customerNum="0306A"
+                              displayEquityRefi="true" displayLienPosition="true" displayLoanStatus="true"
+                              displayNegAm="true" estimatedValue="550000.57" loanAmt="500000.88" loanNum="6987354687"
+                              loanPurpose="" retro="false" saleAmt="350000.32">
+        <Subject apn="013-180-014" city="Santa Barbara" state="CA" streetAddr="641 COWLES ROAD" zip="93108"/>
+    </CollateralManagerRequest>
+    <ProfileInputs/>
+</Request>

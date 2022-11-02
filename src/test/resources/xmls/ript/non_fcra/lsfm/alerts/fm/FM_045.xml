@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <ReportOption searchDate="2022-01-01-07:00"/>
+        <Reissue userId="ADMN000027" runType="SUBMIT" masterID="MI4ee28e84235e40c6acaf8c0c6786e706"
+                 channelID="CoreBatch"/>
+        <LoanAttributes estimatedValue="3800000" firstTimeHomeBuyer="false" loanAmount="380000" loanNumber="LSFM-FM045"
+                        loanPurpose="Purchase" userCltv="100.0" userDocTypeDesc="FULL" userDti="40.95" userLtv="100.0"
+                        userOccupancyTypeDesc="PrimaryResidence" userPropertyType="SingleFamilyResidential"
+                        channelCode="HomeEquity"/>
+        <SubjectProperty>
+            <Address carrierRoute="" city="GUFFEY" streetAddr="151 ASPEN LN" county="PARK" fips="8093" houseNum="151"
+                     msaCode="19740" msaName="Denver-Aurora, CO" cbsaCode="19740" cbsaName="Denver-Aurora, CO"
+                     postDir="" preDir="" state="CO" streetName="ASPEN" suffix="LN" unitNum="" unitType="" zip="80820"
+                     zip4="0" latitude="38889834" longitude="-105786015" censusBlock="080930005003136"
+                     cityStateZip="GUFFEY CO 80820" address="151 ASPEN LN" inputStreetAddr="151 ASPEN WAY DR"
+                     inputCity="" inputState="" inputZip="80820"/>
+            <Location censusTract="080930005003136" county="PARK" latitude="38889834" longitude="-105786015"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" dob="1992-02-25" ssnEncryptedTwoWay="MTY0MTQ5MjYxNjI2NA==TvvmcbBCmTudRFRRNmkDwA=="
+                  firstName="Gail" lastName="Gagleston" ssnEncryptedOneWay="9edee98ff707e3e16dc0853f9e4c409f">
+            <CurrentAddress carrierRoute="C025" city="HESPERIA" streetAddr="8338 8TH AVE" county="SAN BERNARDINO"
+                            fips="6071" houseNum="8338" msaCode="40140" msaName="Riverside-San Bernardino-Ontario, CA"
+                            cbsaCode="40140" cbsaName="Riverside-San Bernardino-Ontario, CA" postDir="" preDir=""
+                            state="CA" streetName="8TH" suffix="AVE" unitNum="" unitType="" zip="92345" zip4="3903"
+                            latitude="34402016" longitude="-117322333" censusBlock="060710100191015"
+                            cityStateZip="HESPERIA CA 92345" address="8338 8TH AVE"/>
+            <CurrentLocation censusTract="060710100191015" county="SAN BERNARDINO" latitude="34402016"
+                             longitude="-117322333"/>
+            <Employment>
+                <Income base="0.0" period="MONTHLY"/>
+            </Employment>
+        </Borrower>
+
+        <Lender customerName="CL HOUSE ACCOUNT" customerNumber="9303884"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+</Request>

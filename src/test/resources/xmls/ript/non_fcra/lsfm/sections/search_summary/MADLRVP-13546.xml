@@ -1,0 +1,38 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding="" sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <LSFMRequest>
+        <LoanAttributes estimatedValue="555000" firstTimeHomeBuyer="false" loanAmount="498652" loanNumber="corrole" loanPurpose="NonCashOutRefinance" refiPurpose="NoCashOutOriginalLender" userCltv="89.847" userDocTypeDesc="FULL" userDti="21.83" userLtv="89.847" userOccupancyTypeDesc="PrimaryResidence" userPropertyType="Condominium" channelCode="Correspondent" userLienCode="First" userLoanProdDesc="Freddie Mac Conforming 30 Year Fixed" mortgageRate="2.990" userAppDate="2021-12-15"/>
+        <SubjectProperty>
+            <Address zip="95825" city="SACRAMENTO" streetAddr="202 HARTNELL" state="CA" />
+        </SubjectProperty>
+        <Borrower brwrNum="0" dob="1986-06-21" phone="4015693194" ssnEncryptedOneWay="" ssnEncryptedTwoWay="" firstName="Andrew" middleName="P" lastName="Dawson">
+        </Borrower>
+        <Originator role="Lender" code="" nmlsID="656377472" phone="">
+            <name firstName="JEREMY" lastName="WETZEL"/>
+            <address city="" state=""/>
+            <company companyName="MORTGAGE GRADER, INC." companyNmlsId="656330407">
+                <Address city="LAGUNA NIGUEL" streetAddr="23807 ALISO CREEK ROAD SUITE 210" state="CA" zip="92677"/>
+            </company>
+        </Originator>
+        <Originator role="Correspondent">
+            <name firstName="Karol" lastName="Grzesiak"/>
+            <address city="" state=""/>
+            <company companyName="FIRSTLINE MORTGAGE, INC." companyNmlsId="474876997">
+                <Address city="NEWPORT BEACH" streetAddr="4425 JAMBOREE RD SUITE 140" state="CA" zip="92677"/>
+            </company>
+        </Originator>
+        <Originator role="Loan Officer">
+            <name firstName="Karol" lastName="Grzesiak"/>
+            <address city="" state=""/>
+        </Originator>
+        <Lender customerName="CoreLogic" customerNumber="12345"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CUROWN_SUBJ_DIFF_FILTER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="PULL_LSC_ALERT_SUMMARY" inputValue="Y"/>
+        <InputParameter inputName="REISSUE_COMPARE" inputValue="Y"/>
+        <InputParameter inputName="REO_COMPARE" inputValue="Y"/>
+        <InputParameter inputName="REPORT_CONFIG" inputValue=""/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,47 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <LSRMRequest>
+        <LSFMRequestInfo>
+            <FraudOptions>
+                <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+            </FraudOptions>
+            <LoanAttributes estimatedValue="150000" firstTimeHomeBuyer="true" loanAmount="999999"
+                            loanNumber="LSRM-TC-QA-IDP084" userCltv="100.0" userDti="78.0" userLtv="100.0"
+                            loanPurpose="REFI" userDocTypeDesc="" userOccupancyTypeDesc="PRIMARYRESIDENCE"
+                            userPropertyType="" userLoanTypeDesc="" channelCode="" userLienCode="" userLoanProdDesc=""
+                            mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="0"
+                            userCloseDate="2022-01-03-08:00"/>
+            <SubjectProperty>
+                <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+            </SubjectProperty>
+            <Borrower brwrNum="0" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6"
+                      ssnEncryptedTwoWay="MTY0MTI0NDIwNTkwOA==60e8auoV/ueSsIhSqFLuzQ==" firstName="Kelly" middleName=""
+                      lastName="Ardmille" suffix="" phone="" dob="2010-01-01-08:00">
+                <CurrentAddress streetAddr="1047 Warren Rd" city="Ithaca" state="NY" zip="14850"/>
+                <Employment employmentType="W2" yearsOnTheJob="0.5">
+                    <Employer employerName="Ardmille Inc" phone="">
+                        <Address streetAddr="202 Harntnell" zip="95825" city="Sacramento" state="CA"/>
+                    </Employer>
+                    <Occupation jobTitle="Boss" soc="" yearsExperience="1.5"/>
+                    <Income period="MONTHLY" base="60575.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                            total="0.0"/>
+                </Employment>
+            </Borrower>
+            <NMLSSearchRequest nmlsIds=""/>
+            <Broker brokerCode="" brokerId="" taxId="">
+                <Address streetAddr="" city="" state="" zip=""/>
+            </Broker>
+            <Lender customerNumber=""/>
+        </LSFMRequestInfo>
+    </LSRMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,35 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <LSFMRequest>
+        <ReportOptions searchDate="2021-08-06-07:00"/>
+        <Reissue masterID="" sourceLoanNumber="" sourceMasterID="" sourceCustomerNumber="" sourceUserId="" userId=""
+                 cacheLifeSpan="0.0" runType="" originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="0" firstTimeHomeBuyer="false" loanAmount="" loanNumber="SPOOR_LOAN"
+                        userCltv="0.0" userDti="0.0" userLtv="0.0" loanPurpose="PURCHASE" userDocTypeDesc=""
+                        userOccupancyTypeDesc="" userPropertyType="" channelCode="" userLienCode="" userLoanProdDesc=""
+                        mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="0"
+                        userCloseDate="2021-08-06-07:00" userAppDate="2021-08-06-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="6350 SW 18th Ter" city="MIAMI" state="FL" zip="33155" fips="0" apn=""/>
+        </SubjectProperty>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <OtherLoanActor firstName="Jesus" middleName="" lastName="Figueroa" suffix="" role=""/>
+        <Lender customerNumber=""/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.0"/>
+        <InputParameter inputName="LNSFFM_OPR_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_CUST_ON" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_GOV_LIST" inputValue="HUD,EPLS,FHFA"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_OPR_WL_SIMILARITY" inputValue="0.96"/>
+    </ProfileInputs>
+</Request>

@@ -1,0 +1,50 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId=""
+         orderNumber="" debug="false" branding="" sourcePlatform="" standardize="false" includePrivateData="false"
+         xmlns="urn:com.facl.services">
+    v
+    <CollateralManagerRequest loanAmt="1234.0" estimatedValue="0.0" saleAmt="0.0" loanNum="SDSDF107"
+                              loanPurpose="REFINANCE" customerNum="" searchDate="2022-03-07-08:00" retro="false"
+                              displayEquityRefi="true" alertServiceId="">
+        <Subject streetAddr="142 GARTH RD APT 5E" houseNum="142" preDir="" streetName="GARTH" suffix="RD" postDir=""
+                 unitNum="5E" city="SCARSDALE" state="NY" zip="10583" zip4="3722" fips="36119" msaCode="35614"
+                 msaName="New York-Northern New Jersey-Long Island, NY-NJ-PA" carrierRoute="C130" cbsaCode="35620"
+                 cbsaName="New York-Northern New Jersey-Long Island, NY-NJ-PA" censusBlock="361190049002001"/>
+        <Subject streetAddr="142 GARTH RD APT 5E" houseNum="142" preDir="" streetName="GARTH" suffix="RD" postDir=""
+                 unitNum="5E" city="SCARSDALE" state="NY" zip="10583" zip4="3722" fips="36119" msaCode="35614"
+                 msaName="New York-Northern New Jersey-Long Island, NY-NJ-PA" carrierRoute="C130" cbsaCode="35620"
+                 cbsaName="New York-Northern New Jersey-Long Island, NY-NJ-PA" censusBlock="361190049002001"/>
+        <SubjectLocation censusTract="361190049002001" latitude="40985114" longitude="-73810502" geoAccuracy=""
+                         county="WESTCHESTER"/>
+    </CollateralManagerRequest>
+    <ProfileInputs>
+        <InputParameter inputName="REPORT_KEY" inputValue="LSCM3"/>
+        <InputParameter inputName="CITY" inputValue="SACRAMENTO"/>
+        <InputParameter inputName="CARRIER_ROUTE" inputValue="C076"/>
+        <InputParameter inputName="BORROWER_USER_PURPOSE_DESC" inputValue="Refinance"/>
+        <InputParameter inputName="GEO_ACCURACY" inputValue="S"/>
+        <InputParameter inputName="COUNTYFIPS" inputValue="06067"/>
+        <InputParameter inputName="LATITUDE" inputValue="38566034"/>
+        <InputParameter inputName="LONGITUDE" inputValue="-121417724"/>
+        <InputParameter inputName="MSA_NAME" inputValue="Sacramento--Arden-Arcade--Roseville, CA"/>
+        <InputParameter inputName="CSA_NAME" inputValue="Sacramento--Arden-Arcade--Truckee, CA-NV"/>
+        <InputParameter inputName="MSA_CODE" inputValue="40900"/>
+        <InputParameter inputName="CSA_CODE" inputValue="472"/>
+        <InputParameter inputName="CBSA_NAME" inputValue="Sacramento--Arden-Arcade--Roseville, CA"/>
+        <InputParameter inputName="REFI_EQ_FLAG" inputValue="true"/>
+        <InputParameter inputName="CBSA_CODE" inputValue="40900"/>
+        <InputParameter inputName="SUFFIX" inputValue="PL"/>
+        <InputParameter inputName="RENDERTYPE" inputValue="XML_INPUT"/>
+        <InputParameter inputName="ADDRESS1" inputValue="202 HARTNELL PL"/>
+        <InputParameter inputName="CENSUS_BLOCK" inputValue="060670054031007"/>
+        <InputParameter inputName="BORROWER_LOANNUMBER" inputValue="SDSDF103"/>
+        <InputParameter inputName="ADDRESS" inputValue="202 HARTNELL PL"/>
+        <InputParameter inputName="STATE" inputValue="CA"/>
+        <InputParameter inputName="ADDRESSES" inputValue="202 HARTNELL PL|95825"/>
+        <InputParameter inputName="ZIP4" inputValue="6612"/>
+        <InputParameter inputName="USER_LOAN_AMOUNT" inputValue="1234"/>
+        <InputParameter inputName="ZIP" inputValue="95825"/>
+        <InputParameter inputName="REPORT_SERVER" inputValue="PCF_RIPT: uat_0"/>
+        <InputParameter inputName="STREET" inputValue="HARTNELL"/>
+        <InputParameter inputName="HOUSE" inputValue="202"/>
+    </ProfileInputs>
+</Request>

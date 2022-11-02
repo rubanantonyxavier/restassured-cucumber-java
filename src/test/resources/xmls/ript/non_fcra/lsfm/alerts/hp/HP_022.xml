@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <LoanAttributes estimatedValue="2900000" firstTimeHomeBuyer="false" loanAmount="730000" loanNumber="LSFM-HP022"
+                        userCltv="39.42" userDti="29.835" userLtv="25.172" loanPurpose="NonCashOutRefinance"
+                        userDocTypeDesc="FullDoc" userOccupancyTypeDesc="PrimaryResidence"
+                        userPropertyType="SingleFamilyResidential" channelCode="Retail" userLienCode="First"
+                        userLoanProdDesc="TFSB Fannie Mae Agency Direct Conforming High Balance Mortgage 25 Yr Fixed"
+                        mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="0"
+                        userCloseDate="2021-01-28-08:00" userAppDate="2020-07-28-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="1944 52ND ST # 46" city="BROOKLYN" state="NY" zip="11204" fips="36047"
+                     apn="5475-25 and 24" inputStreetAddr="1944-46 52ND ST" inputCity="BROOKLYN" inputState="NY"
+                     inputZip="11204"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay="" firstName="Jacob" middleName=""
+                  lastName="Werczberger" suffix="" phone="" dob="1975-02-20-08:00">
+            <CurrentAddress streetAddr="1946 52nd Street" city="Brooklyn" state="NY" zip="11204"/>
+        </Borrower>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="RESCORE" inputValue="N"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="Fraud_AllAlerts"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="N"/>
+    </ProfileInputs>
+</Request>			
+	

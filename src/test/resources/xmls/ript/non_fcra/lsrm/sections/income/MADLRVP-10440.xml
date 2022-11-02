@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSRMRequest>
+        <LSFMRequestInfo>
+            <Reissue userId="KINDLEND2" runType="SUBMIT" masterID="MId5fa8cd51b9c4c7680b5acc43195b70b" channelID="C2D"/>
+            <LoanAttributes estimatedValue="0" firstTimeHomeBuyer="false" loanAmount="548250" loanNumber="TESTFORKIND"
+                            loanPurpose="Refinance" userSaleAmount="0" userCloseDate="2021-08-25" userCltv="57.71"
+                            userDocTypeDesc="FULL" userDti="41.59" userLtv="57.71"
+                            userOccupancyTypeDesc="PrimaryResidence" userPropertyType="DETACH" channelCode=""
+                            userLienCode="PRIMARY" mortgageTerm="360" userAppDate="2021-04-27"/>
+            <SubjectProperty>
+                <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+            </SubjectProperty>
+            <Borrower brwrNum="0" dob="1987-12-02" phone="6502833289" ssnEncryptedOneWay="" ssnEncryptedTwoWay=""
+                      firstName="KELLY" lastName="ARDMILLE">
+                <Employment yearsOnTheJob="2.0" employmentType="W2">
+                    <Employer employerName="Center for Consciousness Medicine" phone="6502833289" years="2">
+                        <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+                        <Firmographics yearsInBusiness="2"/>
+                    </Employer>
+                    <Income base="8147.0" period="MONTHLY"/>
+                    <Occupation jobTitle="President" yearsExperience="2.0"/>
+                </Employment>
+            </Borrower>
+            <Borrower brwrNum="1" ssnEncryptedOneWay=""
+                      ssnEncryptedTwoWay="" firstName="Iliana" middleName=""
+                      lastName="Fred-Miranda" suffix="" creditScore="756" phone="6502833289" dob="1940-11-01">
+                <CurrentAddress streetAddr="18 Lakeside Dr" city="San Antonio" state="TX" zip="78248"/>
+                <OtherOwnedAddresses dispositionStatus="RetainForPrimaryOrSecondaryResidence" propertyType="Condominium"
+                                     currentResidence="false" grossRentalIncome="">
+                    <InputAddress streetAddr="4412 McKinney (SUMMIT) Unit 7" city="Dallas" state="TX" zip="75205"/>
+                </OtherOwnedAddresses>
+                <OtherOwnedAddresses dispositionStatus="Rental" propertyType="Land" currentResidence="false"
+                                     grossRentalIncome="">
+                    <InputAddress streetAddr="14700 NW Military Hwy (RBFCU)" city="Shavano Park" state="TX"
+                                  zip="78231"/>
+                </OtherOwnedAddresses>
+                <OtherOwnedAddresses dispositionStatus="RetainForPrimaryOrSecondaryResidence"
+                                     propertyType="SingleFamily" currentResidence="true" grossRentalIncome="">
+                    <InputAddress streetAddr="18 Lakeside (PNC)" city="San Antonio" state="TX" zip="78248"/>
+                </OtherOwnedAddresses>
+                <OtherOwnedAddresses dispositionStatus="Rental" propertyType="SingleFamily" currentResidence="false"
+                                     grossRentalIncome="">
+                    <InputAddress streetAddr="1806 Three Frks" city="San Antonio" state="TX" zip="78258"/>
+                </OtherOwnedAddresses>
+                <Employment yearsOnTheJob="2.0" employmentType="SELF">
+                    <Employer employerName="Center for Consciousness Medicine" phone="6502833289" years="2">
+                        <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+                        <Firmographics yearsInBusiness="2"/>
+                    </Employer>
+                </Employment>
+            </Borrower>
+            <OtherLoanActor role="TITLE" firstName="David" lastName="Malo"/>
+            <OtherLoanActor role="SETTLEMENTCOMPANY" companyName="Title Agency of America"/>
+            <Lender customerName="CoreLogic Test" customerNumber="CLTEST"/>
+        </LSFMRequestInfo>
+    </LSRMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.0"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="Y"/>
+        <InputParameter inputName="WL_DISABLE_FUZZY_MATCH" inputValue="N"/>
+        <InputParameter inputName="WL_DISABLE_NICKNAME_MATCH" inputValue="N"/>
+        <InputParameter inputName="WL_FL_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="WL_NON_OFAC_LNAME_MATCH_REQ" inputValue="Y"/>
+    </ProfileInputs>
+</Request>

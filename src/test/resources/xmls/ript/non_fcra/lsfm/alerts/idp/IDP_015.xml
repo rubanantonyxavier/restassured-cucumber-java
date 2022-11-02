@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <ReportOptions searchDate="2020-07-18-07:00"/>
+        <Reissue masterID="" sourceLoanNumber="" sourceMasterID="" sourceCustomerNumber="" sourceUserId="" userId=""
+                 cacheLifeSpan="0.0" runType="" originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes channelCode="RETAIL" userPropertyType="SINGLEFAMILY" userOccupancyTypeDesc="PrimaryResidence"
+                        loanPurpose="Refinance" loanNumber="JTEST-IDP015" loanAmount="350000" estimatedValue="400000"/>
+        <SubjectProperty>
+            <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="MTY0NjE4MDQ0NjI4OQ==+sgRNihW81thattUMgDmiw==" firstName="G"
+                  middleName="" lastName="DONNARZI" phone="9092331324" dob="1975-08-31-07:00" creditScore="700">
+            <CurrentAddress streetAddr="16748 Scandia Rd NW" city="POULSBO" state="WA" zip="98370"/>
+            <Employment employmentType="W2" yearsOnTheJob="0.0">
+                <Employer>
+                    <Address streetAddr="202 HARTNELL PL" zip="95825" city="SACRAMENTO" state=""/>
+                </Employer>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <Lender customerNumber=""/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+    <ReportInputs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+</Request>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <ReportOptions searchDate="2022-05-15-07:00"/>
+        <Reissue masterID="MIe365652cd8ab4a48bd1f87e60e775a40" sourceLoanNumber="" sourceMasterID=""
+                 sourceCustomerNumber="" sourceUserId="" userId="Caliber2" cacheLifeSpan="0.0" runType="SUBMIT"
+                 originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="310000" firstTimeHomeBuyer="true" loanAmount="280250" loanNumber="9720776807"
+                        userCltv="0.0" userDti="0.0" userLtv="95.0" loanPurpose="Purchase" refiPurpose=""
+                        userLoanTypeDesc="" userDocTypeDesc="FullDoc" userOccupancyTypeDesc="PrimaryResidence"
+                        userPropertyType="TownHouse_RowHouse" channelCode="WHOLESALE" userLienCode="First"
+                        userLoanProdDesc="CF30" mortgageTerm="" mortgageRate="" clientDiscretionaryField=""
+                        userSaleAmount="0" userCloseDate="2022-05-15-07:00" userAppDate="2022-05-15-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="4151 WESTLAND CIR" city="ANCHORAGE" state="AK" zip="99517" fips="2020" apn=""
+                     inputStreetAddr="4151 WESTLAND CIR" inputCity="ANCHORAGE" inputState="AK" inputZip="99517"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay="" firstName="Kaitlin" middleName=""
+                  lastName="Wilhelm" suffix="" creditScore="770" phone="9072317150" dob="1996-03-19-08:00">
+            <CurrentAddress streetAddr="4151 Westland Cir" city="Anchorage" state="AK" zip="99517"/>
+            <Employment employmentType="W2" yearsOnTheJob="1.0">
+                <Employer employerName="Northern Adjuster" phone="9078683999">
+                    <Address streetAddr="1401 Rudakof Cir" zip="99508" city="Anchorage" state="AK"/>
+                </Employer>
+                <Occupation jobTitle="Adjuster" soc="" yearsExperience="1.0"/>
+                <Income period="MONTHLY" base="4000.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                        total="0.0"/>
+            </Employment>
+        </Borrower>
+        <OtherLoanActor lastName="Edwards CPA PA" role="Account Manager"/>
+        <OtherLoanActor firstName="CUBATABACO" role="Underwriter"/>
+        <Lender customerNumber="90002100"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SHOW_INACTIVE" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="LSFM_DEFAULT"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LEGACY_WL_INPUT" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_CUST_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_GOV_LIST" inputValue="EPLS,HUD,FHFA"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_BWR_OFAC_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_CUST_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_GOV_LIST" inputValue="EPLS,HUD,FHFA,FHLMC"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_GOV_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_ON" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_SIMILARITY" inputValue="0.96"/>
+        <InputParameter inputName="OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="WL_DISABLE_FUZZY_MATCH" inputValue="N"/>
+        <InputParameter inputName="WL_DISABLE_NICKNAME_MATCH" inputValue="N"/>
+        <InputParameter inputName="WL_FL_THRESHOLD" inputValue="0.96"/>
+        <InputParameter inputName="WL_NON_OFAC_LNAME_MATCH_REQ" inputValue="Y"/>
+    </ProfileInputs>
+</Request>

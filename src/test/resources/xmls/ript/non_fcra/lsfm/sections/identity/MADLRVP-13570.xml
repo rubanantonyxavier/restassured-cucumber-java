@@ -1,0 +1,80 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <LSFMRequest>
+        <ReportOptions/>
+        <Reissue masterID="" sourceLoanNumber="" sourceMasterID="" sourceCustomerNumber="" sourceUserId="" userId=""
+                 cacheLifeSpan="0.0" runType="SUBMIT" originalRiptID="" originalRunType="" originalRunDate=""/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="0" firstTimeHomeBuyer="false" loanAmount="100000" loanNumber="Loan20211123TEST"
+                        userCltv="0.0" userDti="0.0" userLtv="0.0" loanPurpose="CONSTRUCTIONTOPERMANENT"
+                        userDocTypeDesc="L" userOccupancyTypeDesc="PRIMARYRESIDENCE" userPropertyType="" channelCode=""
+                        userLienCode="" userLoanProdDesc="" mortgageTerm="" mortgageRate="" clientDiscretionaryField=""
+                        userSaleAmount="0" userCloseDate="2021-11-23-08:00" userAppDate="2021-11-23-08:00"/>
+        <SubjectProperty>
+            <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" phone="7086917140" ssnEncryptedOneWay="" ssnEncryptedTwoWay="" firstName="EVREN"
+                  lastName="KAYAKIRAN"/>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <Lender customerNumber=""/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ADDRESS1" inputValue="202 HARTNELL PL"/>
+        <InputParameter inputName="REPORT_SERVER" inputValue="PCF_RIPT: dev_0"/>
+        <InputParameter inputName="LNSFFM_NMLS_FILTER_BY_STATES" inputValue="Y"/>
+        <InputParameter inputName="HOUSE" inputValue="202"/>
+        <InputParameter inputName="REPORT_KEY" inputValue="LSFM3"/>
+        <InputParameter inputName="STATE" inputValue="CA"/>
+        <InputParameter inputName="CBSA_NAME" inputValue="Sacramento--Arden-Arcade--Roseville, CA"/>
+        <InputParameter inputName="STREET" inputValue="HARTNELL"/>
+        <InputParameter inputName="BORROWER_SSN0" inputValue="351762213"/>
+        <InputParameter inputName="LONGITUDE" inputValue="-121417727"/>
+        <InputParameter inputName="GEO_ACCURACY" inputValue="S"/>
+        <InputParameter inputName="OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="RENDERTYPE" inputValue="XML_INPUT"/>
+        <InputParameter inputName="LATITUDE" inputValue="38566043"/>
+        <InputParameter inputName="LNSFFM_ACTIVATE_NMLS" inputValue="Y"/>
+        <InputParameter inputName="MSA_CODE" inputValue="40900"/>
+        <InputParameter inputName="CUROWN_SUBJ_DIFF_FILTER" inputValue="Y"/>
+        <InputParameter inputName="DISPLAY_MLS_DATA" inputValue="Y"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="BYPASS_RIPT_CACHE" inputValue="true"/>
+        <InputParameter inputName="USER_DOC_TYPE_DESC" inputValue="L"/>
+        <InputParameter inputName="ADDRESS" inputValue="202 HARTNELL PL"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_ON" inputValue="true"/>
+        <InputParameter inputName="3RDP_OFAC_WANTED" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_BWR_WL_GOV_ON" inputValue="true"/>
+        <InputParameter inputName="FRAUD_MODEL_ENGINE" inputValue="true"/>
+        <InputParameter inputName="MSA_NAME" inputValue="Sacramento--Arden-Arcade--Roseville, CA"/>
+        <InputParameter inputName="CSA_CODE" inputValue="472"/>
+        <InputParameter inputName="SUFFIX" inputValue="PL"/>
+        <InputParameter inputName="USER_OCC_TYPE_DESC" inputValue="PRIMARYRESIDENCE"/>
+        <InputParameter inputName="CARRIER_ROUTE" inputValue="C076"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_ON" inputValue="true"/>
+        <InputParameter inputName="CSA_NAME" inputValue="Sacramento--Arden-Arcade--Truckee, CA-NV"/>
+        <InputParameter inputName="USER_LOAN_NUMBER" inputValue="Loan20211123TEST"/>
+        <InputParameter inputName="ADDRESSES" inputValue="202 HARTNELL PL|95825"/>
+        <InputParameter inputName="CITY" inputValue="SACRAMENTO"/>
+        <InputParameter inputName="COUNTYFIPS" inputValue="06067"/>
+        <InputParameter inputName="ADRFNAME0" inputValue="Mark"/>
+        <InputParameter inputName="BORROWER_SEQ0" inputValue="-1"/>
+        <InputParameter inputName="USER_LOAN_AMOUNT" inputValue="100000"/>
+        <InputParameter inputName="USER_PURPOSE_DESC" inputValue="CONSTRUCTIONTOPERMANENT"/>
+        <InputParameter inputName="ADRLNAME0" inputValue="Marsupial"/>
+        <InputParameter inputName="ZIP4" inputValue="6612"/>
+        <InputParameter inputName="CBSA_CODE" inputValue="40900"/>
+        <InputParameter inputName="ACTIVATE_MAIL_SEARCH" inputValue="Y"/>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="LSFM_DEFAULT"/>
+        <InputParameter inputName="ZIP" inputValue="95825"/>
+        <InputParameter inputName="LNSFFM_SHOW_SEARCH_SUMMARY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_3RDP_WL_GOV_ON" inputValue="true"/>
+        <InputParameter inputName="BRID_TWO0" inputValue="MTYzNzY4MDI3Mzg3OA==jDHae4i24QHs4b8UXweHDQ=="/>
+        <InputParameter inputName="HIDE_FM_STATS_DISTRIBUTION" inputValue="Y"/>
+        <InputParameter inputName="CENSUS_BLOCK" inputValue="060670054031006"/>
+    </ProfileInputs>
+</Request>

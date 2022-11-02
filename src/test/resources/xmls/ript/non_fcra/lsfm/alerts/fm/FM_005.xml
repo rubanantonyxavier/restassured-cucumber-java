@@ -1,0 +1,54 @@
+<Request outputMode="XML" excludeDataLoad="false" customerNum="" loginId="" orderNumber="" debug="false" branding=""
+         sourcePlatform="" standardize="false" includePrivateData="false" xmlns="urn:com.facl.services">
+    <LSFMRequest>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="150000" firstTimeHomeBuyer="true" loanAmount="999999"
+                        loanNumber="LSFM-TC-QA-FM005" userCltv="100.0" userDti="95" userLtv="100.0" loanPurpose="REFI"
+                        userDocTypeDesc="" userOccupancyTypeDesc="PRIMARYRESIDENCE" userPropertyType=""
+                        userLoanTypeDesc="" channelCode="" userLienCode="" userLoanProdDesc="" mortgageTerm=""
+                        mortgageRate="" clientDiscretionaryField="" userSaleAmount="0"
+                        userCloseDate="2022-01-03-08:00"/>
+        <SubjectProperty>
+            <Address streetAddr="202 HARTNELL PL" city="SACRAMENTO" state="CA" zip="95825" fips="0" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6"
+                  ssnEncryptedTwoWay="MTY0MTI0NDIwNTkwOA==60e8auoV/ueSsIhSqFLuzQ==" firstName="Kelly" middleName=""
+                  lastName="Ardmille" suffix="" phone="" dob="2010-01-01-08:00">
+            <CurrentAddress streetAddr="1047 Warren Rd" city="Ithaca" state="NY" zip="14850"/>
+            <Employment yearsOnTheJob="7.0" employmentType="W2">
+                <Employer employerName="Cisco Systems" phone="4084244180" years="7">
+                    <Address carrierRoute="C001" city="SAN JOSE" streetAddr="170 W TASMAN DR" county="SANTA CLARA"
+                             fips="6085" houseNum="170" msaCode="41940" msaName="San Jose-Sunnyvale-Santa Clara, CA"
+                             cbsaCode="41940" cbsaName="San Jose-Sunnyvale-Santa Clara, CA" postDir="" preDir="W"
+                             state="CA" streetName="TASMAN" suffix="DR" unitNum="" unitType="" zip="95134" zip4="1700"
+                             latitude="37408988" longitude="-121952492" censusBlock="060855050082001"
+                             cityStateZip="SAN JOSE CA 95134" address="170 W TASMAN DR"/>
+                    <Firmographics yearsInBusiness="46" abiNumber=" " grossSales="0.0" numEmployees="13" sic="737904"
+                                   sicDescription="COMPUTERS-NETWORKING"/>
+                    <Location censusTract="060855050082001" county="SANTA CLARA" latitude="37408988"
+                              longitude="-121952492"/>
+                </Employer>
+                <Income base="50730.0" period="MONTHLY"/>
+                <Occupation jobTitle="Senior Software Engineer" yearsExperience="46"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds=""/>
+        <Broker brokerCode="" brokerId="" taxId="">
+            <Address streetAddr="" city="" state="" zip=""/>
+        </Broker>
+        <Lender customerNumber=""/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="IDPRO_BWR_LOOKUP_VENDOR_PREF" inputValue="TARGUS,TELEMATCH"/>
+        <InputParameter inputName="IDPRO_EMP_LOOKUP_VENDOR_PREF" inputValue="TELEMATCH,TARGUS"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+</Request>

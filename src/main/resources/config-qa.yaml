@@ -1,0 +1,8 @@
+urls:
+  lsfm: https://cis-qa-ript-lsfm.apps.pcfusw1stg.solutions.corelogic.com
+  lsfmFcra: https://cis-qa-ript-fcra-lsfm.apps.pcfusw1stg.solutions.corelogic.com
+  lsrm: https://cis-qa-ript-lsrm.apps.pcfusw1stg.solutions.corelogic.com
+  lsrmFcra: https://cis-qa-ript-fcra-lsrm.apps.pcfusw1stg.solutions.corelogic.com
+  lscm: https://cis-qa-ript-lscm.apps.pcfusw1stg.solutions.corelogic.com
+  lscmFcra: https://cis-qa-ript-fcra-lscm.apps.pcfusw1stg.solutions.corelogic.com
+  c2d: https://cis-qa-c2d-connect2data.apps.pcfusw1stg.solutions.corelogic.com

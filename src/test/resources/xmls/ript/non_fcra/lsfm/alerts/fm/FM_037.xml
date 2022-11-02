@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <ReportOptions searchDate="2022-03-25-07:00"/>
+        <FraudOptions>
+            <UserDefs user1="" user2="" user3="" user4="" user5="" user6="" user7="" user8="" user9="" user10=""/>
+        </FraudOptions>
+        <LoanAttributes estimatedValue="480000" firstTimeHomeBuyer="false" loanAmount="515000" loanNumber="FMALERT"
+                        userCltv="86.46" userDti="70.0" userLtv="86.46" loanPurpose="CASHOUT" userDocTypeDesc="FULL"
+                        userOccupancyTypeDesc="PrimaryResidence" userPropertyType="SINGLEFAMILY" channelCode="RETAIL"
+                        userLienCode="4" userLoanProdDesc="CONVENTIONAL" mortgageTerm="50" mortgageRate=""
+                        clientDiscretionaryField="" userSaleAmount="0" userCloseDate="2019-09-13-07:00"
+                        userAppDate="2019-09-13-07:00" userLoanProdDescStd="CONVENTIONAL" userLoanPropertyTypeStd=""/>
+        <SubjectProperty>
+            <Address streetAddr="2132 RIVERFRONT LN" city="FAYETTEVILLE" state="AR" zip="72703" fips="143" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="6845c26d615717e49f63c8b36b6da1c6"
+                  ssnEncryptedTwoWay="MTY0MTI0NDIwNTkwOA==60e8auoV/ueSsIhSqFLuzQ==" firstName="Kelly" middleName=""
+                  lastName="Ardmille" suffix="" phone="" dob="1940-01-01-08:00">
+            <CurrentAddress streetAddr="2132 Riverfront Lane" city="Fayetteville" state="AR" zip="72703"/>
+            <OtherOwnedAddresses dispositionStatus="RETAINED" propertyType="SINGLEFAMILY" currentResidence="true"
+                                 grossRentalIncome="">
+                <InputAddress streetAddr="2132 Riverfront Lane" city="Fayetteville" state="AR" zip="72703"/>
+            </OtherOwnedAddresses>
+            <Employment employmentType="W2" yearsOnTheJob="2.1">
+                <Employer employerName="Bank" phone="5016871748">
+                    <Address streetAddr="5 Statehouse PZ" zip="72201" city="Little Rock" state="AR"/>
+                </Employer>
+                <Occupation jobTitle="Vice President of Risk Ma" soc="" yearsExperience="2.0"/>
+                <Income period="MONTHLY" base="13750.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                        total="0.0"/>
+            </Employment>
+        </Borrower>
+        <Borrower brwrNum="1" ssnEncryptedOneWay="fb4423eba262d1236e163f97bb8e9dc6"
+                  ssnEncryptedTwoWay="MTU3ODMyMzU3MDY3Nw==1pAdauFSlejFJv9yUt3kTw==" firstName="daniel" middleName="J."
+                  lastName="GREENOSHI" suffix="" creditScore="0" phone="4152509511" dob="1993-09-26-07:00">
+            <CurrentAddress streetAddr="15747 oak rd" city="Carmel" state="IN" zip="46062"/>
+            <CurrentAddress carrierRoute="R002" city="MATTESON" streetAddr="908 WARWICK DR" county="COOK" fips="17031"
+                            houseNum="908" msaCode="16984" msaName="Chicago-Naperville-Joliet, IL-IN-WI"
+                            cbsaCode="16980" cbsaName="Chicago-Naperville-Joliet, IL-IN-WI" postDir="" preDir=""
+                            state="IL" streetName="WARWICK" suffix="DR" unitNum="" unitType="" zip="60443" zip4="2100"
+                            latitude="41509582" longitude="-87762094" censusBlock="170318300033082"
+                            cityStateZip="MATTESON IL 60443" address="908 WARWICK DR"/>
+            <CurrentLocation censusTract="170318300033082" county="COOK" latitude="41509582" longitude="-87762094"/>
+            <Employment yearsOnTheJob="10.0" employmentType="SELF">
+                <Employer employerName=" Daniel GREENOSHI" phone="8154697749" years="10">
+                    <Address carrierRoute="R045" city="MOKENA" streetAddr="9981 W 190TH ST STE H" county="WILL"
+                             fips="17197" houseNum="9981" msaCode="16984" msaName="Chicago-Naperville-Joliet, IL-IN-WI"
+                             cbsaCode="16980" cbsaName="Chicago-Naperville-Joliet, IL-IN-WI" postDir="" preDir="W"
+                             state="IL" streetName="190TH" suffix="ST" unitNum="H" unitType="STE" zip="60448"
+                             zip4="5613" latitude="41544594" longitude="-87861117" censusBlock="171978835221022"
+                             cityStateZip="MOKENA IL 60448" address="9981 W 190TH ST H"/>
+                    <Firmographics yearsInBusiness="17"/>
+                    <Location censusTract="171978835221022" county="WILL" latitude="41544594" longitude="-87861117"/>
+                </Employer>
+                <Income base="0.0" overtime="0.0" commission="6976.58" bonus="0.0" other="0.0" total="6976.58"
+                        period="MONTHLY"/>
+                <Occupation jobTitle="realtor/broker" yearsExperience="17"/>
+            </Employment>
+        </Borrower>
+        <Lender customerNumber="2490A"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+</Request>

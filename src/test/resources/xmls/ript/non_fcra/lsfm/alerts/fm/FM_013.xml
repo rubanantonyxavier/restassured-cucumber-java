@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <LoanAttributes estimatedValue="245000" firstTimeHomeBuyer="false" loanAmount="21099410"
+                        loanNumber="LSFM-TC-QA-FM013" userCltv="85.917" userDti="38.185" userLtv="85.917"
+                        loanPurpose="Purchase" userDocTypeDesc="FullDoc" userOccupancyTypeDesc="PrimaryResidence"
+                        userPropertyType="PUD" channelCode="WHOLESALE" userLienCode="" userLoanProdDesc="CHMPF30"
+                        mortgageTerm="" mortgageRate="" clientDiscretionaryField="" userSaleAmount="0"
+                        userCloseDate="2017-07-11-07:00"/>
+        <SubjectProperty>
+            <Address streetAddr="31015 BRAMLEY CIR" city="NEW HUDSON" state="MI" zip="48165" fips="26125" apn=""/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedTwoWay="MTY0MTQ5MjYxNjI2NA==TvvmcbBCmTudRFRRNmkDwA==" firstName="NICOLE"
+                  middleName="" lastName="TALBOT" suffix="" phone="" dob="1977-04-04-08:00" creditScore="689">
+            <CurrentAddress streetAddr="24437 OLDE ORCHARD ST" city="Novi" state="MI" zip="48375"/>
+            <Employment employmentType="W2" yearsOnTheJob="0.0">
+                <Employer employerName="FIRST SECURITIES FINANCIAL SERVICES" phone="">
+                    <Address streetAddr="30150 TELEGRAPH RD SUITE 320" zip="48025" city="Bingham Farms" state="MI"/>
+                    <Firmographics sic="872100" naics="" abiNumber="" grossSales="0.0" numEmployees="8"
+                                   sicDescription=""/>
+                </Employer>
+                <Occupation jobTitle="SENIOR LOAN PROCESSOR" soc="" yearsExperience="15.0"/>
+                <Income period="MONTHLY" base="5500.0" overtime="0.0" bonus="0.0" commission="0.0" other="0.0"
+                        total="0.0"/>
+            </Employment>
+        </Borrower>
+        <NMLSSearchRequest nmlsIds="116848"/>
+        <Broker brokerName="First Securities Financial Services, Inc." brokerCode="4486" brokerId="" taxId="383309597"
+                phone="">
+            <Address streetAddr="30150 TELEGRAPH RD SUITE 320" city="BINGHAM FARMS" state="MI" zip="48025"/>
+        </Broker>
+        <OtherLoanActor firstName="NICOLE" middleName="" lastName="TALBOT" suffix="" role="Borrower"/>
+
+        <Lender customerNumber="90002100"/>
+
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="N"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LNSF_INCOME_NHIG" inputValue="Y"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_BUSSEARCH_RADIUS" inputValue="25"/>
+        <InputParameter inputName="LN_LANDJ_LOOKBACK_DEFAULT" inputValue="N"/>
+    </ProfileInputs>
+</Request>

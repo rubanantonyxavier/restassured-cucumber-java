@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false" includePrivateData="true">
+    <LSFMRequest>
+        <Reissue sourceLoanNumber="test1" sourceMasterID="MI36ae348165ff434db722bfd30f01452a" sourceCustomerNumber="006"
+                 sourceUserId="FRAUDTEAM" userId="FRAUDTEAM" runType="submit" cacheLifeSpan="99.0"
+                 originalRiptID="RIPT_1C120E8360E14976B3144FDD01E59276" originalRunType="SUBMIT"
+                 masterID="MI36ae348165ff434db722bfd30f01452a" originalRunDate="2021-11-10 11:25:42"
+                 channelID="RQ-FCRA"/>
+        <LoanAttributes estimatedValue="500000" loanAmount="400000" loanNumber="lsfm-borrow1test" loanPurpose="Purchase"
+                        userOccupancyTypeDesc="PrimaryResidence" userPropertyType="SINGLEFAMILY" channelCode="RETAIL"/>
+        <SubjectProperty>
+            <Address carrierRoute="C076" city="SACRAMENTO" streetAddr="202 HARTNELL PL" county="SACRAMENTO" fips="6067"
+                     houseNum="202" msaCode="40900" msaName="Sacramento--Arden-Arcade--Roseville, CA" cbsaCode="40900"
+                     cbsaName="Sacramento--Arden-Arcade--Roseville, CA" postDir="" preDir="" state="CA"
+                     streetName="HARTNELL" suffix="PL" unitNum="" unitType="" zip="95825" zip4="6612" latitude="0"
+                     longitude="0" censusBlock="060670054031006" cityStateZip="SACRAMENTO CA 95825"
+                     address="202 HARTNELL PL" inputStreetAddr="202 Hartnell" inputCity="Sacramento" inputState="CA"
+                     inputZip="95825"/>
+            <Location censusTract="060670054031006" county="SACRAMENTO" latitude="0" longitude="0"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" dob="1976-01-19" ssnEncryptedOneWay="474afa028d86481689bc39a59efefc34"
+                  ssnEncryptedTwoWay="MTYzNjU3MjY0MDE4MA==FMJ1PvXMXIuzalZdwJ3TfQ==" firstName="James" lastName="Ardur">
+            <CurrentAddress carrierRoute="C076" city="SACRAMENTO" streetAddr="202 HARTNELL PL" county="SACRAMENTO"
+                            fips="6067" houseNum="202" msaCode="40900" msaName="Sacramento--Arden-Arcade--Roseville, CA"
+                            cbsaCode="40900" cbsaName="Sacramento--Arden-Arcade--Roseville, CA" postDir="" preDir=""
+                            state="CA" streetName="HARTNELL" suffix="PL" unitNum="" unitType="" zip="95825" zip4="6612"
+                            latitude="0" longitude="0" censusBlock="060670054031006" cityStateZip="SACRAMENTO CA 95825"
+                            address="202 HARTNELL PL"/>
+            <CurrentLocation censusTract="060670054031006" county="SACRAMENTO" latitude="0" longitude="0"/>
+        </Borrower>
+        <Lender customerName="CoreLogic" customerNumber="006"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+</Request>

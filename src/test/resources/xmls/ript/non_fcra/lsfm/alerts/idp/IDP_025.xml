@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request xmlns="urn:com.facl.services" outputMode="XML" orderNumber="" debug="false">
+    <LSFMRequest>
+        <FraudOptions>
+            <UserDefs user1="COLLATERAL ALERTS" user2="HP001"/>
+        </FraudOptions>
+        <LoanAttributes combLtv="60.0" creditScore="0" userDocTypeDesc="FULLDOC" estimatedValue="1550000"
+                        loanAmount="930000" userOccupancyTypeDesc="PrimaryResidence" loanNumber="JTEST-IDP025"
+                        loanPurpose="Purchase"/>
+        <SubjectProperty>
+            <Address streetAddr="4338 NORWALK CIR" zip="95655"/>
+        </SubjectProperty>
+        <Borrower brwrNum="0" ssnEncryptedOneWay="" ssnEncryptedTwoWay="MTY0NjE3OTI3NTY5Ng==60e8auoV/ueSsIhSqFLuzQ=="
+                  firstName="TESTKelly" middleName="" lastName="TESTArdmille" suffix="" phone="" dob="1967-11-09-08:00">
+            <CurrentAddress streetAddr="15358 COHNA ST" city="POP LODGE" state="MI" zip="42085"/>
+            <Employment yearsOnTheJob="0.5" employmentType="W2">
+                <Employer employerName="Ardmille Inc" phone="9163327862">
+                    <Address carrierRoute="C076" city="SACRAMENTO" streetAddr="202 HARTNELL PL" county="SACRAMENTO"
+                             fips="6067" houseNum="202" msaCode="40900"
+                             msaName="Sacramento--Arden-Arcade--Roseville, CA" cbsaCode="40900"
+                             cbsaName="Sacramento--Arden-Arcade--Roseville, CA" postDir="" preDir="" state="CA"
+                             streetName="HARTNELL" suffix="PL" unitNum="" unitType="" zip="95825" zip4="6612"
+                             latitude="0" longitude="0" censusBlock="060670054031006" cityStateZip="SACRAMENTO CA 95825"
+                             address="202 HARTNELL PL"/>
+                    <Firmographics/>
+                    <Location censusTract="060670054031006" county="SACRAMENTO" latitude="0" longitude="0"/>
+                </Employer>
+                <Income base="17643.0"/>
+                <Occupation jobTitle="Boss" yearsExperience=".5"/>
+            </Employment>
+        </Borrower>
+        <Lender customerNumber="02A"/>
+    </LSFMRequest>
+    <ProfileInputs>
+        <InputParameter inputName="ALERT_SVC_ID" inputValue="FRAUD_ALLALERTS"/>
+        <InputParameter inputName="CALL_CREDIT_HEADER" inputValue="Y"/>
+        <InputParameter inputName="FM_MODEL" inputValue="4.1"/>
+        <InputParameter inputName="BANKRUPTCY_LOOKBACK" inputValue="30"/>
+        <InputParameter inputName="VERIFY_BANKRUPTCY" inputValue="Y"/>
+        <InputParameter inputName="LNSFFM_MERS_SWITCH_ON" inputValue="N"/>
+        <InputParameter inputName="LN_BUSINESS_SEARCH" inputValue="N"/>
+        <InputParameter inputName="LN_LANDJ_SEARCH" inputValue="N"/>
+        <InputParameter inputName="ORDER_LQDM" inputValue="N"/>
+        <InputParameter inputName="WIRE_FRAUD" inputValue="N"/>
+    </ProfileInputs>
+</Request>
